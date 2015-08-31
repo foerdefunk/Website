@@ -138,6 +138,11 @@ article {
 
 }
 
-footer{
+footer {
   background-color: #474747;
+}
+
+footer div {
+  margin-right: 5%;
+  margin-left: 5%;
 }
