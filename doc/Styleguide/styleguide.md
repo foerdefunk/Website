@@ -15,6 +15,7 @@ Als Font verwenden wir [Gunplay Regular](https://www.myfonts.com/fonts/typodermi
 ### Farben
 **Bojen-Rot: #d91b2a**  
 **Ostsee-Blau: #305278**  
+**Grenzlinien-Magenta: #e12b87**
 
 Rost-Braun: #634d34  
 Gegilbtes-Beige: #584f47  
@@ -29,6 +30,9 @@ Papier-Weiss: #ffffff
 
 ### Grafiken
 An weiteren Grafiken verwenden wir auf Flyern, Stickern etc. gerne selbsterstellte Seekarten. Diese sind aufwendig zu erstellen und müssen für jedes Medium angepasst werden. Für eine Webseite sind diese ungeeignet. Sollte eine neue Karte benötigt werden, frage [@roikiermedia](http://Twitter.com/roikiermedia).
+
+### Sonstiges
+Die Grenzlinie auf den Seekarten ist ein Pfad in Grenzlinien-Magenta (#e12b87) mit einem Verhältnis der Konturabschnitte von 20 (Strich) 5 (Lücke) 3 (Strich) 5 (Lücke).
 
 ---
 *Fördefunk ist ein Projekt des Chaostreff Flensburg.*
