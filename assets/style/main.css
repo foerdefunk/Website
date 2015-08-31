@@ -79,8 +79,11 @@ header{
   display: block;
   text-align: center;
 }
-header img{
-  width:20%;
+.headerBoje{
+  width:30%;
+}
+.headerLogoTypo{
+  width:40%;
 }
 
 .headerMenu {
