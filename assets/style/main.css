@@ -70,18 +70,26 @@ body {
 }
 h1 {
     font-weight: 700;
+    color: #4a4949;
 }
 
 h2 {
     font-weight: 700;
+    color: #4a4949;
 }
 
 h3 {
     font-weight: 700;
+    color: #4a4949;
 }
 
 h4 {
     font-weight: 700;
+    color: #4a4949;
+}
+
+p {
+  color: #4a4949;
 }
 /*
 =======================================
@@ -126,7 +134,7 @@ header{
 .headerMenu li a{
   text-decoration: none;
   font-weight: 300;
-  color:#d91b2a;
+  color: #4a4949;
   margin-left: 1rem;
 }
 
