@@ -108,8 +108,13 @@ header{
 article {
   margin-right: 5%;
   margin-left: 5%;
-  border-top: dashed;
-  border-color: #e12b87;
+}
+
+.articleSeperator{
+  height: 2.5pt;
+  background: url(../images/grenzlinie.svg)0 0;
+  background-repeat-y: inherit;
+
 }
 
 .about{
