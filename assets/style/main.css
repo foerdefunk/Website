@@ -103,10 +103,6 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
-body{
-
-}
-
 header{
   display: block;
   text-align: center;
@@ -189,6 +185,13 @@ article section{
 
 }
 .faqList details{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  color: #4a4949;
   margin:1em;
   display:block;
 }
