@@ -109,12 +109,16 @@ article {
   margin-right:5%;
   margin-left:5%;
 }
+article section{
+  padding:1em;
+}
 
 .articleSeperator{
-  margin:3em;
+  position:relative;
+  z-index:99999999;
+  margin:-1.25pt;
   margin-right: 5%;
   margin-left: 5%;
-
   height: 2.5pt;
   background-image: url(../images/grenzlinie.svg);
   background-repeat-y: inherit;
