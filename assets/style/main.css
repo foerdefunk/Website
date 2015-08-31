@@ -113,7 +113,7 @@ article {
   margin-right: 5%;
   margin-left: 5%;
   height: 2.5pt;
-  background: url(../images/grenzlinie.svg)0 0;
+  background-image: url(../images/grenzlinie.svg);
   background-repeat-y: inherit;
 
 }
