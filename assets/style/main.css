@@ -62,8 +62,32 @@ button::-moz-focus-inner {
 }
 
 /*
+main elements
 =======================================
 */
+body {
+    line-height: 1.4;
+}
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+h4 {
+    font-weight: 700;
+}
+/*
+=======================================
+*/
+
+
 html {
     font-size: 120%;
     background: #ffffff; /* white */
