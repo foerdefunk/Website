@@ -77,7 +77,10 @@ body{
 
 header{
   display: block;
-
+  text-align: center;
+}
+header img{
+  width:20%;
 }
 
 .headerMenu {
