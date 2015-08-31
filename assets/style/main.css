@@ -79,17 +79,28 @@ header{
 
 }
 
+article {
+  margin-right: 5%;
+  margin-left: 5%;
+  border-top: dashed;
+  border-color: #e12b87;
+}
+
 .headerMenu {
   position: fixed;
   float: right;
   right: 0;
   list-style-type: none;
   margin-right: 2em;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .headerMenu li {
   display: inline;
+}
+.headerMenu li a{
+  text-decoration: none;
+  color:#d91b2a;
 }
 
 .about{
