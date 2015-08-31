@@ -106,11 +106,12 @@ header{
 }
 
 article {
-  margin-right: 5%;
-  margin-left: 5%;
+  margin:3em;
 }
 
 .articleSeperator{
+  margin-right: 5%;
+  margin-left: 5%;
   height: 2.5pt;
   background: url(../images/grenzlinie.svg)0 0;
   background-repeat-y: inherit;
