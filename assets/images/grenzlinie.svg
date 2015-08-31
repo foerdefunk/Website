@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 419.5 297.6" style="enable-background:new 0 0 419.5 297.6;" xml:space="preserve">
+	 viewBox="0 0 136.5 1.3" style="enable-background:new 0 0 136.5 1.3;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#E02D88;}
 </style>
 <g>
-	<rect x="83.8" y="143.8" class="st0" width="10" height="1.3"/>
-	<rect x="99" y="143.8" class="st0" width="3.1" height="1.3"/>
-	<path class="st0" d="M205.1,145.1H202v-1.3h3.1V145.1z M196.8,145.1H176v-1.3h20.8V145.1z M170.8,145.1h-3.1v-1.3h3.1V145.1z
-		 M162.5,145.1h-20.8v-1.3h20.8V145.1z M136.5,145.1h-3.1v-1.3h3.1V145.1z M128.1,145.1h-20.8v-1.3h20.8V145.1z"/>
-	<rect x="210.3" y="143.8" class="st0" width="10" height="1.3"/>
+	<rect class="st0" width="10" height="1.3"/>
+	<rect x="15.2" class="st0" width="3.1" height="1.3"/>
+	<path class="st0" d="M121.3,1.3h-3.1V0h3.1V1.3z M113,1.3H92.2V0H113V1.3z M87,1.3h-3.1V0H87V1.3z M78.6,1.3H57.8V0h20.8V1.3z
+		 M52.6,1.3h-3.1V0h3.1V1.3z M44.3,1.3H23.5V0h20.8V1.3z"/>
+	<rect x="126.5" class="st0" width="10" height="1.3"/>
 </g>
 </svg>
