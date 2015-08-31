@@ -76,19 +76,12 @@ body{
 }
 
 header{
+  display: block;
 
-}
-
-article {
-  margin-right: 5%;
-  margin-left: 5%;
-  border-top: dashed;
-  border-color: #e12b87;
 }
 
 .headerMenu {
   position: fixed;
-  float: right;
   right: 0;
   list-style-type: none;
   margin-right: 2rem;
@@ -97,13 +90,20 @@ article {
 }
 
 .headerMenu li {
-  display: inline;
+  display: inline-block;
 }
 .headerMenu li a{
   text-decoration: none;
   font-weight: 300;
   color:#d91b2a;
   margin-left: 1rem;
+}
+
+article {
+  margin-right: 5%;
+  margin-left: 5%;
+  border-top: dashed;
+  border-color: #e12b87;
 }
 
 .about{
