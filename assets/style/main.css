@@ -68,7 +68,7 @@ html {
     font-size: 120%;
     background: #ffffff; /* white */
     color: #000000; /* black */
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body{
@@ -91,8 +91,8 @@ article {
   float: right;
   right: 0;
   list-style-type: none;
-  margin-right: 2em;
-  font-size: 2rem;
+  margin-right: 2rem;
+  font-size: 1.5rem;
 }
 
 .headerMenu li {
@@ -100,7 +100,9 @@ article {
 }
 .headerMenu li a{
   text-decoration: none;
+  font-weight: 300;
   color:#d91b2a;
+  margin-left: 1rem;
 }
 
 .about{
