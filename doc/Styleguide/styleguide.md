@@ -11,3 +11,18 @@ Logos im SVG-Vektorformat können im Unterordner [Logos](./logos/) gefunden werd
 
 ### Font
 Als Font verwenden wir [Gunplay Regular](https://www.myfonts.com/fonts/typodermic/gunplay/) von Typodermic. Ein Webfont ist auf [Typekit erhältlich](https://typekit.com/fonts/gunplay).
+
+### Farben
+**Bojen-Rot: #d91b2a**  
+**Ostsee-Blau: #305278**  
+
+Rost-Braun: #634d34  
+Gegilbtes-Beige: #584f47  
+Voltaik-Grau: #6d6c75  
+Antenen-Weiss: #d9dcda
+
+Schatten-Rot: #bf2322  
+Tiefschatten-Rot: #911918  
+
+Skizzen-Schwarz: #000000  
+Papier-Weiss: #ffffff
