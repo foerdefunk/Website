@@ -173,6 +173,31 @@ article section{
 .faq{
 
 }
+.faqList{
+
+}
+.faqList details{
+  margin:1em;
+  display:block;
+}
+.faqList:before{
+margin-right:1em;
+margin-left:1em;
+content: '?';
+display: block;
+line-height: 1;
+float: right;
+font-size: 12em;
+font-weight: bold;
+color: #d91b2a;
+color: rgba(217, 27, 42, 0.5);
+}
+
+.faqList:after{
+  content: '';
+display: block;
+clear: both;
+}
 
 .contact{
 
