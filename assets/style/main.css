@@ -109,7 +109,6 @@ header{
 }
 
 .headerLogoWrapper {
-  margin-right: -1rem;
   margin-top: -0.2rem;
 }
 
@@ -270,14 +269,42 @@ clear: both;
 
 
 footer {
-  height:auto;
+  width:auto;
   background-color: #9a9a9a;
+  text-align: center;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+.footerLink{
+  margin:1em;
+  display: inline-block;
+  padding:1em;
+  padding-right:1em;
+    padding-left:1em;
+}
+.footerSvg{
+  margin-right:1em;
+  fill:white;
+  width:1em;
+  vertical-align: middle;
+}
+.footerFacebook{
+  background-color: #47639e;
+
+}
+.footerTwitter{
+  background-color: #32acd5;
+
+}
+.footerGithub{
+  background-color: black;
+
 }
 
-footer div {
-  margin-right: 5%;
-  margin-left: 5%;
-}
+
+
 
 /*  map section
     ========================================================================== */
