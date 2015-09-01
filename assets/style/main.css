@@ -109,12 +109,15 @@ header{
 }
 
 .headerLogoWrapper {
-
+  margin-right: -1rem;
+  margin-top: -0.2rem;
 }
 
 .headerBoje{
-  width:30%;
+  width:35%;
+  margin-right: -3.5rem;
 }
+
 .headerLogoTypo{
   width:60%;
 }
@@ -122,14 +125,14 @@ header{
 .hafen {
   position: relative;
   z-index: -1;
-  margin-top: -7rem;
-  margin-bottom: -0.3rem;
+  margin-top: -7.5rem;
+  margin-bottom: -0.35rem;
 }
 
 .headerMenu {
   list-style-type: none;
   margin-right: 2rem;
-  margin-top: 0.2rem;
+  margin-top: 0.5rem;
   font-size: 1.5rem;
 }
 
