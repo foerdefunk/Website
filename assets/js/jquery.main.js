@@ -17,7 +17,7 @@ $(document).ready(function() {
             popupAnchor: L.Point[-15, -32]
         });
 
-        var map = L.map('map', {
+        var map = L.map('ffmap', {
             icon: myIcon,
             scrollWheelZoom: false,
             center: [54.790961, 9.435912],
@@ -39,6 +39,7 @@ $(document).ready(function() {
             url: 'nodes.json',
             dataType: 'json',
             success: function(data) {
+              //console.log(JSON.parse(data));
                 data.nodes.forEach(setNodeToMap);
 
                 var countNodes = 0;
@@ -49,7 +50,6 @@ $(document).ready(function() {
                     }
                 };
 
-                $('#count-nodes').html(countNodes);
             }
         });
 

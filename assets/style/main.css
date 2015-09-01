@@ -145,9 +145,11 @@ clear: both;
 }
 
 .menuWrapper {
-  position: fixed;
+  text-align: right;
+  position: relative;
   z-index: 99999999;
   right: 0;
+
   width:auto;
 }
 
