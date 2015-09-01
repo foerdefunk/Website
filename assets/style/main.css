@@ -179,7 +179,7 @@ article section{
 
 }
 
-.articleSeperator2{
+.articleSeperator_kartenrand{
   position:relative;
   z-index: 999;
   height: 10pt;
@@ -261,15 +261,9 @@ display: block;
 clear: both;
 }
 
-
-
-
-
-
-
 footer {
   width:auto;
-  background-color: #9a9a9a;
+  background-color: #cccccc;
   text-align: center;
 }
 footer a{
