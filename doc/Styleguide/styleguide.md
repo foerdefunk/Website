@@ -25,6 +25,8 @@ Antenen-Weiss: #d9dcda
 Schatten-Rot: #bf2322  
 Tiefschatten-Rot: #911918  
 
+Chaostreff-Blau: #488dcb  
+
 Skizzen-Schwarz: #000000  
 Papier-Weiss: #ffffff
 

@@ -24,5 +24,7 @@ Some of our documentation is written in german. Want to help translate it into e
 - **@roikiermedia**
 - **@flemsound**
 
+*Entypo Social Icons CC-BY-SA 4.0 by Daniel Bruce.*
+
 ---
 *Fördefunk ist ein Projekt des Chaostreff Flensburg.*
