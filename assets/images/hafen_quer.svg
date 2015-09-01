@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="70 95.7 452.2 84.5" style="enable-background:new 70 95.7 452.2 84.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#D3EBFB;stroke:#7BA5D8;stroke-width:0.5;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#E22B86;stroke-width:0.25;stroke-miterlimit:10;}
+	.st2{fill:#FFF9DE;stroke:#4A4949;stroke-width:0.25;stroke-miterlimit:10;}
+	.st3{fill:#FFF9DE;stroke:#696969;stroke-width:0.5;stroke-miterlimit:10;stroke-dasharray:1,1;}
+	.st4{fill:none;stroke:#5C5C5C;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;}
+	.st5{fill:#FFFFFF;stroke:#696969;stroke-width:0.5;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#696969;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:5,5;}
+	.st7{fill:#AFAFAF;stroke:#696969;stroke-width:0.25;stroke-miterlimit:10;}
+	.st8{display:none;}
+	.st9{display:inline;}
+	.st10{display:none;opacity:0.55;}
+</style>
+<path class="st0" d="M522.2,98.6v15.1L499.3,129l-4.6-7.6l-6.9,3.7l9.9,15.8l-5.6,3.5l-10.3-14.9l-6,3.5l9.3,14.2
+	c0,0-7.3,5.4-8.4,6.1c-1.1,0.8-8.1,0.9-8.1,0.9l0.9-1l-9.1-15.5l-6.2,3.2l9.3,15.6c0,0-13.7,2.1-18.4,2.8
+	c-4.7,0.7-12.7,0.4-12.7,0.4l3.7-2.8l-12.9-20.3l-6,3.9l11.4,18.4c0,0-20.4-2.1-22.2-2.2c-0.6-0.1-1.9-0.2-3.5-0.4
+	c0,0,8.8-22.3,19.3-25.9c10.5-3.7,31.8-3.3,41.5-5.7c9.8-2.3,26.5-15.4,34.4-17.9C501.3,105.8,511.2,102.6,522.2,98.6z"/>
+<g id="flach">
+	<path class="st1" d="M505.7,124.8c-2-6.6,0.6-15.1,4.7-14c6.3,0.8,8.8,0.7,11.8-0.9"/>
+</g>
+<g id="landmasse">
+	<path class="st2" d="M520,156c-15,3.4-86,18.7-97.2,18.7c-4.7,0-15.9-0.2-27.7-0.5c-16-0.4-34.2-0.8-42.2-0.7
+		c-12.3,0.1-68.2,4.2-93.8,6.8h263.1v-24.9C521.3,155.7,520.6,155.9,520,156z"/>
+	<path class="st2" d="M522.2,113.9v16.2l-45.8,28.4l-31.3,5.7l-51.8-4.3l-207,11l-3.7-14l-94.1,23.4H75.2L186.5,153l2.6,14.2
+		c0,0,201.9-12,204.1-11.7c1.5,0.1,6.3,0.6,9.7,0.9c1.6,0.2,3,0.3,3.5,0.4c1.7,0.2,22.2,2.2,22.2,2.2l-11.3-18.5l6-3.9l12.9,20.3
+		l-3.7,2.8c0,0,8,0.3,12.7-0.4s18.4-2.8,18.4-2.8l-9.3-15.6l6.2-3.2l9.1,15.5l-0.9,1c0,0,7.1-0.1,8.1-0.9s8.4-6.1,8.4-6.1l-9.3-14.2
+		l6-3.5l10.1,15.1l5.6-3.5l-9.9-15.8l6.9-3.7l4.6,7.6L522.2,113.9z"/>
+</g>
+<path class="st3" d="M522.2,130.2v25.2c-0.8,0.3-1.6,0.5-2.2,0.7c-15,3.4-86,18.7-97.2,18.7c-4.7,0-15.9-0.2-27.7-0.5
+	c-16-0.4-34.2-0.8-42.2-0.7c-12.3,0.1-68.2,4.2-93.8,6.8H88.5l94.1-23.4l3.7,14l207-11l51.8,4.3l31.3-5.7L522.2,130.2z"/>
+<g id="straßen">
+	<path class="st4" d="M439.1,180.3c23.2-3.8,66.2-12,83.1-15.9"/>
+	<path class="st4" d="M383.6,180.3c-8.7-0.7-16.1-1.3-19.7-1.1c-2.1,0.2-7.6,0.5-15,1.1"/>
+	<path class="st4" d="M522.2,174.2c-8,1.8-19.3,3.9-31.5,6.1"/>
+</g>
+<g id="schienen">
+	<g id="ost">
+	</g>
+	<g id="west">
+		<path class="st5" d="M522.2,155.4v2.1c-0.7,0.2-1.3,0.4-1.8,0.5c-15,3.5-86.4,18.8-97.6,18.8c-4.7,0-15.9-0.2-27.7-0.5
+			c-16-0.3-34.1-0.7-42.1-0.7c-9.4,0.1-44.3,2.5-71.6,4.8h-22.3c25.6-2.6,81.5-6.7,93.8-6.8c8-0.1,26.2,0.3,42.2,0.7
+			c11.8,0.3,23,0.5,27.7,0.5c11.2,0,82.2-15.3,97.2-18.7C520.6,155.9,521.3,155.7,522.2,155.4z"/>
+		<path class="st6" d="M268.9,180.3c27.8-2.5,73-5.8,84-5.8c14-0.1,58.9,1.2,69.8,1.2c10.9,0,82.1-15.3,97.4-18.8
+			c0.6-0.1,1.3-0.3,2.1-0.6"/>
+	</g>
+</g>
+<polygon class="st7" points="414.8,166.9 422.5,166.9 422.5,163.9 414.8,162.8 "/>
+<path class="st7" d="M143.5,176.9l6.8-1.2c0,0-0.5-3.8-1-3.8s-5.8,1.5-5.8,1.5V176.9z"/>
+<path class="st7" d="M156.8,180.3c0-0.2,0-1.6,0-1.6l6.2-0.3l0.9,2H156.8z"/>
+<path class="st7" d="M155.8,174.4l5.7-1c0,0-0.6-4.2-1.1-4.2s-5.9,1.7-5.9,1.7L155.8,174.4z"/>
+<polygon class="st7" points="126.4,176.9 130.8,175.6 130.8,172.8 126.4,172.8 "/>
+<polygon class="st7" points="115.3,180.3 121.2,180.3 136.3,180.3 136.3,175.6 130.8,175.6 126.4,176.9 "/>
+<g id="blocking" class="st8">
+</g>
+<g id="text">
+</g>
+<g id="rand" class="st8">
+	<g id="Ebene_4" class="st9">
+	</g>
+</g>
+<g id="lin" class="st8">
+</g>
+<g id="ref" class="st10">
+	<g class="st9">
+		
+			<image style="overflow:visible;enable-background:new    ;" width="1873" height="2386" xlink:href="flinnenhafen_osm.png"  transform="matrix(1.1173 0 0 1.1173 -1056.2878 -1931.1761)">
+		</image>
+	</g>
+</g>
+<polygon class="st2" points="522.2,113.9 522.2,113.9 522.2,113.8 "/>
+</svg>

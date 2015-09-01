@@ -114,8 +114,14 @@ header{
   width:60%;
 }
 
-.headerMenu {
+.hafen {
+  position: relative;
+  z-index: -1;
+  margin-top: -7rem;
+  margin-bottom: -0.3rem;
+}
 
+.headerMenu {
   list-style-type: none;
   margin-right: 2rem;
   margin-top: 0.2rem;
@@ -143,7 +149,6 @@ clear: both;
   z-index: 99999999;
   right: 0;
   width:auto;
-  box-shadow: -10px 11px 19px #000000;
 }
 
 article {
@@ -156,7 +161,7 @@ article section{
 
 .articleSeperator{
   position:relative;
-  z-index:99999999;
+  z-index: 999;
   margin:-1.25pt;
   margin-right: 5%;
   margin-left: 5%;
@@ -164,6 +169,15 @@ article section{
   background-image: url(../images/grenzlinie.svg);
   background-repeat: repeat-x;
 
+}
+
+.articleSeperator2{
+  position:relative;
+  z-index: 999;
+  height: 10pt;
+  background-image: url(../images/kartenkante.svg);
+  background-repeat: repeat-x;
+  background-color: #fff;
 }
 
 .about{
