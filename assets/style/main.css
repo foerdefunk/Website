@@ -235,11 +235,39 @@ display: block;
 clear: both;
 }
 
+
 .contact{
+  margin-top: 1em;
+  margin-bottom: 1em;
 
 }
 
+.contactOffline{
+float:left;
+  display:inline-block;
+  width:45%;
+  border-right: 2px solid lightgrey;
+}
+
+.contactOnline{
+float:right;
+  display:inline-block;
+  width:45%;
+}
+.contact:after{
+content: '';
+display: block;
+clear: both;
+}
+
+
+
+
+
+
+
 footer {
+  height:auto;
   background-color: #9a9a9a;
 }
 
@@ -254,6 +282,7 @@ footer div {
     .find-us_map {
     	    height: 600px;
     	    margin-bottom: 2em;
+          margin-top:2em;
     	}
 
 
