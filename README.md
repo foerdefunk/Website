@@ -2,8 +2,10 @@
 
 ---
 ## Fördefunk.de
-### Freies Internet für Flensburg.
-This repository is used for the development of our new website for public relations.
+### Freies Internet für Flensburg.  
+
+
+![Screenshot Fördefunk.de](./doc/readme/img/screenshot.png)
 
 ---
 ### Styleguide
