@@ -119,7 +119,10 @@ header{
 }
 
 .hafen {
-
+  position: relative;
+  z-index: -1;
+  margin-top: -7rem;
+  margin-bottom: -0.3rem;
 }
 
 .headerMenu {
@@ -178,6 +181,7 @@ article section{
   height: 10pt;
   background-image: url(../images/kartenkante.svg);
   background-repeat: repeat-x;
+  background-color: #fff;
 }
 
 .about{
