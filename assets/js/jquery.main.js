@@ -39,7 +39,7 @@ $(document).ready(function() {
             url: 'nodes.json',
             dataType: 'json',
             success: function(data) {
-              //console.log(JSON.parse(data));
+                console.log(data.nodes);
                 data.nodes.forEach(setNodeToMap);
 
                 var countNodes = 0;
