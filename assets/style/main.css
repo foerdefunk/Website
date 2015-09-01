@@ -286,10 +286,16 @@ footer a{
 }
 .footerSvg{
   margin-right:1em;
-  fill:white;
   width:1em;
   vertical-align: middle;
 }
+.footerSvgChaosTreff{
+  margin-right:1em;
+  width:2em;
+  vertical-align: middle;
+
+}
+
 .footerFacebook{
   background-color: #47639e;
 
@@ -301,6 +307,14 @@ footer a{
 .footerGithub{
   background-color: black;
 
+}
+.footerChaosTreff{
+  margin:1em;
+  display: inline-block;
+  padding:1em;
+  padding-right:1em;
+  padding-left:1em;
+  background-color: #488dcb;
 }
 
 
