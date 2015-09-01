@@ -206,7 +206,34 @@ article section{
 .faqList{
 
 }
+.faqGrenzlinie{
+display: flex;
+height: 1.5pt;
+margin: 0.5em;
+
+}
+
+.faqList:before{
+float:right;
+width:auto;
+margin-right:1em;
+margin-left:1em;
+content: '?';
+display: block;
+line-height: 1;
+font-size: 12em;
+font-weight: bold;
+color: #d91b2a;
+color: rgba(217, 27, 42, 0.5);
+}
+.faqList:after{
+content: '';
+display: block;
+clear: both;
+}
+
 .faqList details{
+  width: 100%;
   margin: 0;
   padding: 0;
   border: 0;
@@ -215,10 +242,13 @@ article section{
   vertical-align: baseline;
   color: #4a4949;
   margin:1em;
-  display:block;
 }
 
-.faqList details[open]{
+.faqList details div{
+  display: flex;
+}
+
+.faqList details[open] summary{
 
 }
 
@@ -230,22 +260,6 @@ article section{
 .faqList summary:hover{
   opacity: 0.5;
 }
-
-
-.faqList:before{
-margin-right:1em;
-margin-left:1em;
-content: '?';
-
-line-height: 1;
-float: right;
-font-size: 12em;
-font-weight: bold;
-color: #d91b2a;
-color: rgba(217, 27, 42, 0.5);
-}
-
-
 
 .contact{
   margin-top: 1em;
