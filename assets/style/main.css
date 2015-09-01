@@ -107,6 +107,11 @@ header{
   display: block;
   text-align: center;
 }
+
+.headerLogoWrapper {
+
+}
+
 .headerBoje{
   width:30%;
 }
