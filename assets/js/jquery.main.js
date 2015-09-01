@@ -10,14 +10,14 @@ $(document).ready(function() {
       success: function() {
 
         var myIcon = L.icon({
-            iconUrl: 'assets/images/logos/foerdefunk-logo-boje.svg',
-            iconRetinaUrl: 'assets/images/logos/foerdefunk-logo-boje.svg',
+            iconUrl: 'assets/images/boje_85x85.png',
+            iconRetinaUrl: 'assets/images/boje_85x85.png',
             iconSize: [30, 32],
             iconAnchor: L.Point[30, 32],
             popupAnchor: L.Point[-15, -32]
         });
 
-        var map = L.map('ffmap', {
+        var map = L.map('map', {
             icon: myIcon,
             scrollWheelZoom: false,
             center: [54.790961, 9.435912],

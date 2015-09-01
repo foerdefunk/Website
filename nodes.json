@@ -1,4 +1,7 @@
-"nodes": {
+{
+  "version": 1,
+  "timestamp": "2015-09-01T00:21:02",
+  "nodes": {
     "e8de272ff0ea": {
       "lastseen": "2015-09-01T00:21:02",
       "nodeinfo": {
@@ -1182,3 +1185,4 @@
       }
     }
   }
+}
