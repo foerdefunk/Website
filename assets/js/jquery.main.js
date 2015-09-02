@@ -8,6 +8,7 @@ $(document).ready(function() {
       dataType: 'script',
       cache: true,
       success: function() {
+        L.Icon.Default.imagePath = 'assets/images';
 
         var myIcon = L.icon({
             iconUrl: 'assets/images/boje_85x85.png',
@@ -29,27 +30,21 @@ $(document).ready(function() {
         }).addTo(map);
 
         var setNodeToMap = function(node) {
-            if(node.geo && node.flags.online) {
-                L.marker([node.geo[0], node.geo[1]], {icon: myIcon}).addTo(map).bindPopup('<h3>'+node.name+'</h3>');
-            }
-        }
-
+            L.marker(node.nodeinfo.location.latitude, node.nodeinfo.location.longitude, {icon: myIcon}).addTo(map).bindPopup('<h3>'+node.nodeinfo.hostname+'</h3>');
+        };
         $.ajax({
             cache: false,
             url: 'nodes.json',
             dataType: 'json',
             success: function(data) {
-                console.log(data.nodes);
-                data.nodes.forEach(setNodeToMap);
-
                 var countNodes = 0;
-
-                for (var i = data.nodes.length - 1; i >= 0; i--) {
-                    if(data.nodes[i].flags.online && data.nodes[i].name != '') {
+                for (var nodeKey in data.nodes) {
+                    var node = data.nodes[nodeKey];
+                    if(node.nodeinfo.location && node.flags.online ) {
+                        setNodeToMap(node);
                         countNodes++;
                     }
                 };
-
             }
         });
 
