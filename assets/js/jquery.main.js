@@ -84,23 +84,8 @@ $(document).ready(function() {
   $('#download-form').submit(function(event) {
     event.preventDefault();
 
-    var type = '',
-      fileExtension = '',
-      router;
+    var router;
 
-
-    switch ($('#download-form-type').val()) {
-      case '0':
-        type = 'factory';
-        break;
-      case '1':
-        type = 'sysupgrade';
-        fileExtension = '-sysupgrade';
-        break;
-      default:
-        type = 'factory';
-        break;
-    }
 
     router = $('#download-form-router').val();
 
@@ -108,7 +93,7 @@ $(document).ready(function() {
       window.alert('Bitte wähle eine Router aus. Den genauen Namen und die Version deines Routers findest du auf seiner Unterseite.');
     } else {
       prefix = 'gluon-foerdefunk-stable-2015-08';
-      window.location.href = 'http://firmware.foerdefunk.de/stable/' + type + '/' + prefix + router + fileExtension + '.bin';
+      window.location.href = 'http://firmware.foerdefunk.de/stable/factory/' + prefix + router;
 
 
 
