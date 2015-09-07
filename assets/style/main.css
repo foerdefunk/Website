@@ -227,11 +227,13 @@ article section {
     width: 100%;
     border-right: 0;
     border-bottom: 1em;
+    padding: 0;
   }
   .contactOnline {
     float: none;
     display: inline-block;
     width: 100%;
+    padding: 0;
   }
 }
 .contact:after {
