@@ -31,7 +31,7 @@ $(document).ready(function() {
       var setNodeToMap = function(node) {
         L.marker([node.nodeinfo.location.latitude, node.nodeinfo.location.longitude], {
           icon: myIcon
-        }).addTo(map).bindPopup('<h3><a href="http://map.foerdefunk.de/#!n:' + node.nodeinfo.node_id + '">' + node.nodeinfo.hostname + '</a></h3>');
+        }).addTo(map).bindPopup('<h3><a href="http://map.foerdefunk.de/#!n:' + node.nodeinfo.node_id + '" target="_blank">' + node.nodeinfo.hostname + '</a></h3>');
       };
       $.ajax({
         cache: false,
