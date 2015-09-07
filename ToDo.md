@@ -1,7 +1,8 @@
 - [x] Sponsor Logo einbinden (@roikiermedia)
 - [ ] Rechtschreibung und Formulierung kontrolieren (@all)
 - [ ] Fix Header height to about 90vh correctly
-- [x] spaceing participateMenU unter der trennlinie 
+- [x] spaceing participateMenU unter der trennlinie
+- [ ] picture next to about text
 
 
  Firefox
