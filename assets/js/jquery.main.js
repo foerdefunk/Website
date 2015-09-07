@@ -46,6 +46,9 @@ $(document).ready(function() {
               countNodes++;
             }
           };
+          var bojen = document.getElementById("bojen");
+          var text = document.createTextNode("Derzeit gibt es schon " + countNodes + " Bojen in Flensburg und Umgebung. Vielleicht auch in deiner Nähe.");
+          bojen.appendChild(text);
         }
       });
 
