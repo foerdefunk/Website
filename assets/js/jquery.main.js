@@ -107,8 +107,8 @@ $(document).ready(function() {
     if (router === '-1') {
       window.alert('Bitte wähle eine Router aus. Den genauen Namen und die Version deines Routers findest du auf seiner Unterseite.');
     } else {
-      cfflPrefix = 'gluon-cffl-cffl-stable-2014.4.0-0';
-      window.location.href = 'media/firmware/' + type + '/' + cfflPrefix + router + fileExtension + '.bin';
+      prefix = 'gluon-foerdefunk-stable-2015-08';
+      window.location.href = 'http://firmware.foerdefunk.de/stable/' + type + '/' + prefix + router + fileExtension + '.bin';
 
 
 
