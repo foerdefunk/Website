@@ -45,8 +45,6 @@ main elements
 
 body {
   line-height: 1.4;
-  max-width: 1024px;
-  margin: 0 auto;
 }
 h1 {
   font-weight: 700;
@@ -80,6 +78,12 @@ html {
   /* black */
   font-family: 'Open Sans', sans-serif;
 }
+
+.nonFullWidth {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 header {
   display: block;
   text-align: center;
