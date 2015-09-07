@@ -220,6 +220,20 @@ article section {
   display: inline-block;
   width: 45%;
 }
+@media all and (max-width: 900px) {
+  .contactOffline {
+    float: none;
+    display: inline-block;
+    width: 100%;
+    border-right: 0;
+    border-bottom: 1em;
+  }
+  .contactOnline {
+    float: none;
+    display: inline-block;
+    width: 100%;
+  }
+}
 .contact:after {
   content: '';
   display: block;
@@ -356,16 +370,12 @@ footer a {
   padding-right: 2em;
   border-right: 2px solid #d3d3d3;
 }
-.participate_left:after {
-  content: '';
-  display: block;
-  clear: both;
-}
 .participate_right {
   width: 45%;
   float: right;
   padding-left: 2em;
 }
+
 .participate_download-form select, .participate_download-form input, .participate_download-form .button {
   display: block;
   padding: 0.5em 1em;
@@ -448,6 +458,17 @@ footer a {
     float: none;
     padding-left: 0;
   }
+
+  .participate_left {
+    width: 100%;
+    float: none;
+  }
+  .participate_right {
+    width: 100%;
+    float: none;
+    padding-left: 0;
+  }
+
 }
 @media all and (max-width: 700px) {
   .participate_list-choose-customer li {
