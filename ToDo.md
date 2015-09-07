@@ -15,5 +15,4 @@
 #Safari
 
 #mobile
--[ ] nebeneinader stehende texte werden verschoben und nicht unter einander gestellt (participateMenu
-  und Kontakt)
+-[ ] nebeneinader stehende texte werden verschoben und nicht unter einander gestellt (participateMenU und Kontakt)
