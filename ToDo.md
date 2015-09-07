@@ -13,3 +13,7 @@
 - [ ] Happy browse einbinden pls use chrome
 
 #Safari
+
+#mobile
+-[ ] nebeneinader stehende texte werden verschoben und nicht unter einander gestellt (participateMenu
+  und Kontakt)
