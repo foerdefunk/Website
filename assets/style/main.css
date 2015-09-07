@@ -455,6 +455,11 @@ footer a {
   content: '- ';
   display: inline;
 }
+
+#sponsor img {
+  margin-top: 0.5rem;
+}
+
 @media all and (max-width: 900px) {
   .participate_list-choose-customer li header p {
     display: none;
