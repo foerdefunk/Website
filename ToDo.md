@@ -1,9 +1,7 @@
-- [ ] Sponsor Logo einbinden (@roikiermedia)
+- [x] Sponsor Logo einbinden (@roikiermedia)
 - [ ] Rechtschreibung und Formulierung kontrolieren (@all)
 - [ ] Fix Header height to about 90vh correctly
 
- Browser optimierung
-- [ ] Überspillende Kontakt & Supporter Section fixen
 
  Firefox
 - [ ] FAQ Summits sind ausgeklappt und lassen sich nicht zusammen klappen
@@ -17,6 +15,7 @@ Safari
 
 mobile
 
-- [ ] nebeneinader stehende texte werden verschoben und nicht unter einander gestellt (participateMenU und Kontakt)
+- [x] nebeneinader stehende texte werden verschoben und nicht unter einander gestellt (participateMenU und Kontakt)
 
 - [ ] Video zum Router flashen
+- [ ] Überspillende Kontakt & Supporter Section fixen
