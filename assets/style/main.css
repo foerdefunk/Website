@@ -42,11 +42,16 @@ button::-moz-focus-inner {
 main elements
 =======================================
 */
+<<<<<<< Updated upstream
 
 body {
   line-height: 1.4;
   max-width: 1024px;
   margin: 0 auto;
+=======
+body {
+    line-height: 1.4;
+>>>>>>> Stashed changes
 }
 h1 {
   font-weight: 700;
@@ -80,10 +85,19 @@ html {
   /* black */
   font-family: 'Open Sans', sans-serif;
 }
-header {
-  display: block;
-  text-align: center;
+
+.nonFullWidth {
+  max-width: 1024px;
+  margin: 0 auto;
 }
+
+header {
+    font-size: 120%;
+    background: #ffffff; /* white */
+    color: #000000; /* black */
+    font-family: 'Open Sans', sans-serif;
+}
+
 .headerLogoWrapper {
   margin-top: -0.2rem;
 }

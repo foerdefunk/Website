@@ -1,2 +1,3 @@
 - [ ] Sponsor Logo einbinden (@roikiermedia)
 - [ ] Rechtschreibung und Formulierung kontrolieren (@all)
+- [ ] Fix Header height to about 90vh correctly
