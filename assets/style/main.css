@@ -784,18 +784,18 @@ footer a {
   -moz-transition: max-height 500ms ease-out;
   transition: max-height 500ms ease-out;
 }
-.participate_download-form {
+.participate_left {
   width: 45%;
   float: left;
   padding-right: 2em;
   border-right: 2px solid #d3d3d3;
 }
-.participate_download-form:after {
+.participate_left:after {
   content: '';
   display: block;
   clear: both;
 }
-.participate_member_right {
+.participate_right {
   width: 45%;
   float: right;
   padding-left: 2em;
