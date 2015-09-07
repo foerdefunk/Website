@@ -15,4 +15,6 @@
 #Safari
 
 #mobile
--[ ] nebeneinader stehende texte werden verschoben und nicht unter einander gestellt (participateMenU und Kontakt)
+- [ ] nebeneinader stehende texte werden verschoben und nicht unter einander gestellt (participateMenU und Kontakt)
+
+- [ ] Video zum Router flashen
