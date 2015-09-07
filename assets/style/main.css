@@ -267,12 +267,15 @@ footer a {
 }
 .footerFacebook {
   background-color: #47639e;
+  margin-top: 2rem;
 }
 .footerTwitter {
   background-color: #32acd5;
+  margin-top: 2rem;
 }
 .footerGithub {
   background-color: black;
+  margin-top: 2rem;
 }
 .footerChaosTreff {
   margin: 1em;
@@ -281,6 +284,7 @@ footer a {
   padding-right: 1em;
   padding-left: 1em;
   background-color: #488dcb;
+  margin-top: 2rem;
 }
 
 /*  map section
@@ -299,6 +303,10 @@ footer a {
 }
 .sectionParticipateMenu section{
   padding:0;
+}
+
+.participateHeader {
+  margin-top: 1rem;
 }
 
 .participate_list-choose-customer {
