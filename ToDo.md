@@ -3,7 +3,7 @@
 - [ ] Fix Header height to about 90vh correctly
 
 # Browser optimierung
-
+- [ ] Überspillende Kontakt & Supporter Section fixen
 
 # Firefox
 - [ ] FAQ Summits sind ausgeklappt und lassen sich nicht zusammen klappen
