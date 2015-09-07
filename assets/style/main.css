@@ -829,3 +829,202 @@ footer a{
     background: #fff;
     border: 1px solid #666;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*  participate section
+        ========================================================================== */
+
+    .participate_list-choose-customer {
+        list-style: none;
+        margin-bottom: 0;
+    }
+
+    .participate_list-choose-customer li {
+        width: 33%;
+        float: left;
+        border-right: 2px solid #ffffff; /* white */
+        cursor: pointer;
+    }
+
+    .participate_list-choose-customer li:last-child {
+        border: 0;
+    }
+
+    .participate_list-choose-customer li header {
+        background-color: #d91b2a; /* bojen-rot */
+        color: #ffffff; /* white */
+        padding: 2em;
+        opacity: 0.7;
+    }
+
+    .participate_list-choose-customer li:hover header h3,
+    .participate_list-choose-customer li.active header h3 {
+        text-decoration: underline;
+    }
+
+    .participate_list-choose-customer li.active header {
+        opacity: 1;
+    }
+
+    .participate_list-choose-customer li.active:after {
+        position: absolute;
+        content: '';
+        display: block;
+        margin-left: 2em;
+        width: 0;
+        height: 0;
+        border-left: 1em solid transparent;
+        border-right: 1em solid transparent;
+        border-top: 1em solid #d91b2a; /* bojen-rot */
+    }
+
+    .participate_list-choose-customer:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .participate_show-customer {
+        max-height: 0;
+        padding: 0 2em;
+        overflow: hidden;
+        clear: both;
+    }
+
+    .participate_show-customer:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .participate_show-customer.active {
+        padding-top: 40px;
+        padding-bottom: 2em;
+        max-height: 2000px;
+        -webkit-transition: max-height 500ms ease-out;
+        -moz-transition: max-height 500ms ease-out;
+        transition: max-height 500ms ease-out;
+    }
+
+    .participate_download-form {
+    }
+
+    .participate_download-form select,
+    .participate_download-form input,
+    .participate_download-form .button {
+        display: block;
+        padding: 0.5em 1em;
+        margin: 0 0 1em 0;
+        width: 100%;
+        font-size: 1em;
+        line-height: 1;
+        text-decoration: none;
+        font-family: 'Source Sans Pro', sans-serif;
+        border-radius: 0;
+        background-color: #ffffff; /* white */
+        -webkit-appearance: none;
+        border: 2px solid #d3d3d3; /* light grey */
+    }
+
+
+
+    .participate_download-form .select-field {
+        position: relative;
+    }
+
+    .participate_download-form .select-field:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 0.5em;
+        margin-top: -0.15em;
+        width: 0;
+        height: 0;
+        border-left: 0.3em solid transparent;
+        border-right: 0.3em solid transparent;
+        border-top: 0.3em solid #d91b2a; /* bojen-rot */
+    }
+
+    .participate_download-form .button {
+        width: auto;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff; /* white */
+        background-color: #d91b2a; /* bojen-rot */
+        border-color: #d91b2a; /* bojen-rot */
+    }
+
+    .participate_download-form .button:hover {
+        background-color: #305278; /* ostsee-blau */
+        border-color: #305278; /* ostsee-blau */
+    }
+
+    .participate_list-links {
+        width: 50%;
+        float: right;
+        padding-left: 2em;
+    }
+
+    .participate_list-firmware-information {
+        display: none;
+        margin-bottom: 1em;
+    }
+
+    .participate_list-links ul {
+        list-style: none;
+    }
+
+    .participate_list-links ul li:before {
+        content: '- ';
+        display: inline;
+    }
+
+    @media all and (max-width: 900px) {
+
+        .participate_list-choose-customer li header p {
+            display: none;
+        }
+
+        .participate_download-form {
+            width: 100%;
+            float: none;
+            padding-right: 0;
+            padding-bottom: 1em;
+            border-right: 0;
+        }
+
+        .participate_list-links {
+            width: 100%;
+            float: none;
+            padding-left: 0;
+        }
+
+    }
+
+    @media all and (max-width: 700px) {
+
+        .participate_list-choose-customer li {
+            width: 100%;
+            float: none;
+            border: 0;
+        }
+
+    }

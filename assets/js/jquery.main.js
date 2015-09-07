@@ -53,3 +53,64 @@ $(document).ready(function() {
   });
 
 });
+
+/*
+    choose customer
+*/
+$(document).ready(function() {
+  var $chooseCustomerItems = $('#choose-customer li');
+  var $showCustomerItems = $('#show-customer article');
+
+  $showCustomerItems.removeClass('active');
+  $('#show-customer article:first-child').addClass('active');
+
+  $chooseCustomerItems.click(function() {
+    $chooseCustomerItems.removeClass('active');
+    $showCustomerItems.removeClass('active');
+
+    $(this).addClass('active');
+    $('#' + $(this).data('show-customer')).addClass('active');
+  });
+});
+
+/*
+    firmware download
+*/
+$(document).ready(function() {
+
+  $('#download-form').submit(function(event) {
+    event.preventDefault();
+
+    var type = '',
+      fileExtension = '',
+      router;
+
+
+    switch ($('#download-form-type').val()) {
+      case '0':
+        type = 'factory';
+        break;
+      case '1':
+        type = 'sysupgrade';
+        fileExtension = '-sysupgrade';
+        break;
+      default:
+        type = 'factory';
+        break;
+    }
+
+    router = $('#download-form-router').val();
+
+    if (router === '-1') {
+      window.alert('Bitte wähle eine Router aus. Den genauen Namen und die Version deines Routers findest du auf seiner Unterseite.');
+    } else {
+      cfflPrefix = 'gluon-cffl-cffl-stable-2014.4.0-0';
+      window.location.href = 'media/firmware/' + type + '/' + cfflPrefix + router + fileExtension + '.bin';
+
+
+
+    }
+
+    return false;
+  });
+});
