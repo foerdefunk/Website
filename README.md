@@ -22,7 +22,7 @@ Some of our documentation is written in german. Want to help translate it into e
 
 - **@spralexx**
 - **@roikiermedia**
-- **@flemsound**
+- **@flemssound**
 
 *Entypo Social Icons CC-BY-SA 4.0 by Daniel Bruce.*
 
