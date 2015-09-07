@@ -1,1 +1,2 @@
 - [ ] Sponsor Logo einbinden (@roikiermedia)
+- [ ] Rechtschreibung und Formulierung kontrolieren (@all)
