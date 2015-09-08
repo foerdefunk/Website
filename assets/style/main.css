@@ -49,6 +49,7 @@ body {
 h1 {
   font-weight: 700;
   color: #4a4949;
+  font-size: 150%;
 }
 h2 {
   font-weight: 700;
@@ -181,6 +182,12 @@ article section {
   background-repeat: repeat-x;
   background-color: #fff;
 }
+
+#about {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .aboutLeft {
   float: left;
   width: 45%;
@@ -205,8 +212,12 @@ article section {
   }
 }
 .map {}
-.participateMenu {}
-.faq {}
+
+.faq {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .faqList {}
 .faqGrenzlinie {
   display: flex;
@@ -258,8 +269,8 @@ article section {
   opacity: 0.5;
 }
 .contact {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 2rem;
+  margin-bottom: 3.5rem;
 }
 .contactOffline {
   float: left;
@@ -344,14 +355,24 @@ footer a {
 /*  map section
     ========================================================================== */
 
+.mapArticle {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .find-us_map {
   height: 600px;
-  margin-bottom: 2em;
-  margin-top: 2em;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 /*  participate section
         ========================================================================== */
+
+.participateMenu {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
 
 .sectionParticipateMenu article {
   margin: 0;
