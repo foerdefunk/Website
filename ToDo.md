@@ -2,7 +2,7 @@
 - [ ] Rechtschreibung und Formulierung kontrolieren (@all)
 - [ ] Fix Header height to about 90vh correctly
 - [x] spaceing participateMenU unter der trennlinie
-- [ ] picture next to about text
+- [x] picture next to about text
 - [ ] nutzen sektion teilen + bild erstellen
 
 
