@@ -75,7 +75,7 @@ $(document).ready(function() {
   var $showCustomerItems = $('#show-customer article');
 
   $showCustomerItems.removeClass('active');
-  $('#show-customer article:first-child').addClass('active');
+  $('#show-customer article:nth-child(2)').addClass('active');
 
   $chooseCustomerItems.click(function() {
     $chooseCustomerItems.removeClass('active');
