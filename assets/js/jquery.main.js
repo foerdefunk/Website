@@ -39,15 +39,17 @@ $(document).ready(function() {
         dataType: 'json',
         success: function(data) {
           var countNodes = 0;
+          var numOfClients=0;
           for (var nodeKey in data.nodes) {
             var node = data.nodes[nodeKey];
             if (node.nodeinfo.location && node.flags.online) {
               setNodeToMap(node);
+              numOfClients = numOfClients+node.statistics.clients;
               countNodes++;
             }
           };
           var bojen = document.getElementById("bojen");
-          var text = document.createTextNode("Derzeit gibt es schon " + countNodes + " Bojen in Flensburg und Umgebung. Vielleicht auch in deiner Nähe.");
+          var text = document.createTextNode("Derzeit gibt es schon " + countNodes + " Bojen mit gesamt "+numOfClients+" in Flensburg und Umgebung. Vielleicht auch in deiner Nähe.");
           bojen.appendChild(text);
         }
       });
