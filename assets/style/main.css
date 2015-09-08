@@ -162,6 +162,7 @@ article section {
 .aboutLeft {
   float: left;
   width: 45%;
+    padding-top: 5%;
 }
 .aboutRight {
   float: right;
