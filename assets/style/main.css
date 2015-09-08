@@ -78,12 +78,10 @@ html {
   /* black */
   font-family: 'Open Sans', sans-serif;
 }
-
 .nonFullWidth {
   max-width: 1024px;
   margin: 0 auto;
 }
-
 header {
   display: block;
   text-align: center;
@@ -135,6 +133,11 @@ article {
   margin-right: 5%;
   margin-left: 5%;
 }
+article:after {
+  content: '';
+  display: block;
+  clear: both;
+}
 article section {
   padding: 1em;
 }
@@ -156,7 +159,28 @@ article section {
   background-repeat: repeat-x;
   background-color: #fff;
 }
-.about {}
+.aboutLeft {
+  float: left;
+  width: 45%;
+}
+.aboutRight {
+  float: right;
+  width: 15%;
+  margin-right: 15%;
+}
+@media all and (max-width: 900px) {
+  .aboutLeft {
+    float: none;
+    display: inline-block;
+    width: 100%;
+    border-right: 0;
+margin-bottom: 1em;
+    padding: 0;
+  }
+  .aboutRight {
+    display: none;
+  }
+}
 .map {}
 .participateMenu {}
 .faq {}
@@ -300,17 +324,16 @@ footer a {
 
 /*  participate section
         ========================================================================== */
-.sectionParticipateMenu article{
-  margin:0;
-}
-.sectionParticipateMenu section{
-  padding:0;
-}
 
+.sectionParticipateMenu article {
+  margin: 0;
+}
+.sectionParticipateMenu section {
+  padding: 0;
+}
 .participateHeader {
   margin-top: 1rem;
 }
-
 .participate_list-choose-customer {
   list-style: none;
   margin-bottom: 0;
@@ -333,11 +356,9 @@ footer a {
   padding: 2em;
   opacity: 0.7;
 }
-
 .participate_list-choose-customer li header h3 {
   color: #fff;
 }
-
 .participate_list-choose-customer li:hover header h3, .participate_list-choose-customer li.active header h3 {
   text-decoration: underline;
 }
@@ -390,7 +411,6 @@ footer a {
   float: right;
   padding-left: 2em;
 }
-
 .participate_download-form select, .participate_download-form input, .participate_download-form .button {
   display: block;
   padding: 0.5em 1em;
@@ -457,11 +477,9 @@ footer a {
   content: '- ';
   display: inline;
 }
-
 #sponsor img {
   margin-top: 0.5rem;
 }
-
 @media all and (max-width: 900px) {
   .participate_list-choose-customer li header p {
     display: none;
@@ -478,7 +496,6 @@ footer a {
     float: none;
     padding-left: 0;
   }
-
   .participate_left {
     width: 100%;
     float: none;
@@ -488,7 +505,6 @@ footer a {
     float: none;
     padding-left: 0;
   }
-
 }
 @media all and (max-width: 700px) {
   .participate_list-choose-customer li {
