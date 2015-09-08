@@ -129,6 +129,28 @@ header {
   right: 0;
   width: auto;
 }
+@media all and (max-width: 900px) {
+  .headerMenu {
+    text-align: center;
+    list-style-type: none;
+    margin-right: 0;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  .menuWrapper {
+    text-align: left;
+    position: relative;
+    z-index: 99999999;
+    right: 0;
+    width: auto;
+  }
+  .headerMenu li a {
+    text-decoration: none;
+    font-weight: 300;
+    color: #4a4949;
+    margin-left: 0rem;
+  }
+}
 article {
   margin-right: 5%;
   margin-left: 5%;
@@ -162,7 +184,7 @@ article section {
 .aboutLeft {
   float: left;
   width: 45%;
-    padding-top: 5%;
+  padding-top: 5%;
 }
 .aboutRight {
   float: right;
@@ -175,7 +197,7 @@ article section {
     display: inline-block;
     width: 100%;
     border-right: 0;
-margin-bottom: 1em;
+    margin-bottom: 1em;
     padding: 0;
   }
   .aboutRight {
@@ -203,6 +225,11 @@ margin-bottom: 1em;
   font-weight: bold;
   color: #d91b2a;
   color: rgba(217, 27, 42, 0.5);
+}
+@media all and (max-width: 900px) {
+  .faqList:before {
+  display:none;
+  }
 }
 .faqList:after {
   content: '';
