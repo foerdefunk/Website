@@ -1,15 +1,95 @@
 {
   "version": 1,
-  "timestamp": "2015-09-01T00:21:02",
   "nodes": {
-    "e8de272ff0ea": {
-      "lastseen": "2015-09-01T00:21:02",
+    "e8de275fec12": {
+      "statistics": {
+        "gateway": "schleuse01",
+        "rootfs_usage": 0.40277777777778,
+        "clients": 3,
+        "uptime": 1546799.08,
+        "memory_usage": 0.7487179487179487,
+        "loadavg": 0.1
+      },
+      "firstseen": "2015-10-12T10:21:01",
       "nodeinfo": {
+        "node_id": "e8de275fec12",
         "system": {
           "site_code": "foerdefunk"
         },
+        "owner": {
+          "contact": "facebook.com/eike.we"
+        },
+        "hardware": {
+          "model": "TP-Link TL-WR841N/ND v9",
+          "nproc": 1
+        },
+        "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "beta"
+          },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "beta-2015.1.2-201508242129"
+          },
+          "batman-adv": {
+            "version": "2015.0",
+            "compat": 15
+          },
+          "fastd": {
+            "version": "v17",
+            "enabled": true
+          }
+        },
+        "hostname": "fffl-DiePARTEI-2",
         "network": {
-          "addresses": ["fe80:0:0:0:eade:27ff:fe2f:f0ea", "2001:bf7:6:0:eade:27ff:fe2f:f0ea", "fdff:49:461:0:eade:27ff:fe2f:f0ea"],
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": ["ea:e2:27:5f:ec:12"],
+                "wireless": ["ea:e1:28:5f:ec:12"]
+              }
+            }
+          },
+          "mesh_interfaces": ["ea:e2:27:5f:ec:12", "ea:e1:28:5f:ec:12"],
+          "addresses": ["2001:bf7:6:0:eade:27ff:fe5f:ec12", "fdff:49:461:0:eade:27ff:fe5f:ec12", "fe80:0:0:0:eade:27ff:fe5f:ec12"],
+          "mac": "e8:de:27:5f:ec:12"
+        }
+      },
+      "flags": {
+        "gateway": false,
+        "online": true
+      },
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "e8de272ff0ea": {
+      "statistics": {
+        "gateway": "schleuse02",
+        "rootfs_usage": 0.40972222222222,
+        "clients": 0,
+        "uptime": 2909910.63,
+        "memory_usage": 0.824948024948025,
+        "loadavg": 0
+      },
+      "firstseen": "2015-08-24T19:53:01",
+      "nodeinfo": {
+        "node_id": "e8de272ff0ea",
+        "system": {
+          "site_code": "foerdefunk"
+        },
+        "owner": {
+          "contact": "freifunk@wlan-fabrik.de"
+        },
+        "hardware": {
+          "model": "TP-Link TL-WR841N/ND v9",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.79977,
+          "longitude": 9.40632
+        },
+        "hostname": "wiflix-vorne",
+        "network": {
           "mesh": {
             "bat0": {
               "interfaces": {
@@ -18,266 +98,338 @@
               }
             }
           },
-          "mac": "e8:de:27:2f:f0:ea",
-          "mesh_interfaces": ["ea:e2:27:2f:f0:ea", "ea:e1:28:2f:f0:ea"]
-        },
-        "node_id": "e8de272ff0ea",
-        "location": {
-          "latitude": 54.79977,
-          "longitude": 9.40632
-        },
-        "hostname": "wiflix-vorne",
-        "hardware": {
-          "nproc": 1,
-          "model": "TP-Link TL-WR841N/ND v9"
+          "mesh_interfaces": ["ea:e2:27:2f:f0:ea", "ea:e1:28:2f:f0:ea"],
+          "addresses": ["fe80:0:0:0:eade:27ff:fe2f:f0ea", "2001:bf7:6:0:eade:27ff:fe2f:f0ea", "fdff:49:461:0:eade:27ff:fe2f:f0ea"],
+          "mac": "e8:de:27:2f:f0:ea"
         },
         "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "beta"
+          },
           "firmware": {
-            "release": "beta-2015.1.2-201508242129",
-            "base": "gluon-v2015.1.2"
+            "base": "gluon-v2015.1.2",
+            "release": "beta-2015.1.2-201508242129"
           },
           "batman-adv": {
             "version": "2015.0",
             "compat": 15
           },
-          "autoupdater": {
-            "enabled": true,
-            "branch": "beta"
-          },
           "fastd": {
-            "enabled": true,
-            "version": "v17"
+            "version": "v17",
+            "enabled": true
           }
-        },
-        "owner": {
-          "contact": "freifunk@wlan-fabrik.de"
         }
-      },
-      "firstseen": "2015-08-24T19:53:01",
-      "statistics": {
-        "gateway": "schleuse01",
-        "clients": 0,
-        "loadavg": 0.12,
-        "memory_usage": 0.8917532917532918,
-        "uptime": 56788.51,
-        "rootfs_usage": 0.40972222222222
       },
       "flags": {
         "gateway": false,
         "online": true
-      }
-    },
-    "schleuse02": {
-      "lastseen": "2015-09-01T00:21:02",
-      "nodeinfo": {
-        "node_id": "schleuse02",
-        "vpn": true,
-        "hostname": "schleuse02",
-        "software": {
-          "firmware": {
-            "release": "14.04",
-            "base": "Ubuntu"
-          },
-          "batman-adv": {
-            "version": "2013.5.0"
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v17"
-          }
-        },
-        "network": {
-          "mac": "12:83:0b:cf:e5:2f",
-          "mesh_interfaces": ["52:54:00:cd:4c:91", "fe:ed:de:ad:be:ee"]
-        }
       },
-      "firstseen": "2015-05-07T16:28:33",
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "e894f6d466fe": {
       "statistics": {
-        "memory_usage": 0.17869353327826154,
-        "uptime": 618363.24,
-        "clients": 0,
-        "loadavg": 0.0
+        "gateway": "schleuse01",
+        "rootfs_usage": 0.064212328767123,
+        "clients": 4,
+        "uptime": 237276.41,
+        "memory_usage": 0.2542034767740097,
+        "loadavg": 0.18
       },
-      "flags": {
-        "gateway": true,
-        "online": true
-      }
-    },
-    "f81a6732b766": {
-      "lastseen": "2015-09-01T00:21:02",
+      "firstseen": "2015-10-27T16:29:01",
       "nodeinfo": {
+        "hostname": "Chaostreff-Fenster",
         "system": {
           "site_code": "foerdefunk"
         },
-        "network": {
-          "addresses": ["2001:bf7:6:0:fa1a:67ff:fe32:b766", "fdff:49:461:0:fa1a:67ff:fe32:b766", "fe80:0:0:0:fa1a:67ff:fe32:b766"],
-          "mac": "f8:1a:67:32:b7:66",
-          "mesh_interfaces": ["fa:1e:67:32:b7:66", "fa:1d:68:32:b7:66"]
-        },
-        "node_id": "f81a6732b766",
-        "location": {
-          "latitude": 54.78252768205,
-          "longitude": 9.4359362125397
-        },
-        "hostname": "das_ike-suedermarkt",
         "hardware": {
-          "nproc": 1,
-          "model": "TP-Link TL-WR1043N/ND v1"
+          "model": "TP-Link TL-WDR4300 v1",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.790529,
+          "longitude": 9.429509
+        },
+        "node_id": "e894f6d466fe",
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": ["ea:95:f7:d4:66:fe"],
+                "tunnel": ["ea:98:f6:d4:66:fe"],
+                "wireless": ["ea:97:f7:d4:66:fe", "ea:97:f8:d4:66:fe"]
+              }
+            }
+          },
+          "mesh_interfaces": ["ea:97:f8:d4:66:fe", "ea:97:f7:d4:66:fe", "ea:95:f7:d4:66:fe", "ea:98:f6:d4:66:fe"],
+          "addresses": ["fdff:49:461:0:ea94:f6ff:fed4:66fe", "fe80:0:0:0:ea94:f6ff:fed4:66fe", "2001:bf7:6:0:ea94:f6ff:fed4:66fe"],
+          "mac": "e8:94:f6:d4:66:fe"
         },
         "software": {
-          "firmware": {
-            "release": "stable-2015.1.0-0",
-            "base": "gluon-v2014.4-690-g631403c"
-          },
           "autoupdater": {
             "enabled": true,
             "branch": "stable"
           },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
           "batman-adv": {
-            "version": "2014.4.0",
+            "version": "2015.0",
             "compat": 15
           },
           "fastd": {
-            "enabled": true,
-            "version": "v17"
+            "version": "v17",
+            "enabled": true
           }
-        },
-        "owner": {
-          "contact": "facebook.com/eike.we"
         }
-      },
-      "firstseen": "2015-05-22T14:18:01",
-      "statistics": {
-        "gateway": "schleuse01",
-        "clients": 0,
-        "loadavg": 0,
-        "memory_usage": 0.8869649535946807,
-        "uptime": 279483.55,
-        "rootfs_usage": 0.063356164383562
       },
       "flags": {
         "gateway": false,
         "online": true
-      }
-    },
-    "e8de27631850": {
-      "lastseen": "2015-09-01T00:21:02",
-      "nodeinfo": {
-        "system": {
-          "site_code": "foerdefunk"
-        },
-        "network": {
-          "addresses": ["fdff:49:461:0:eade:27ff:fe63:1850", "fe80:0:0:0:eade:27ff:fe63:1850", "2001:bf7:6:0:eade:27ff:fe63:1850"],
-          "mac": "e8:de:27:63:18:50",
-          "mesh_interfaces": ["ea:e2:27:63:18:50", "ea:e1:28:63:18:50"]
-        },
-        "node_id": "e8de27631850",
-        "location": {
-          "latitude": 54.7891859,
-          "longitude": 9.4286728
-        },
-        "hostname": "visuellverstehen",
-        "hardware": {
-          "nproc": 1,
-          "model": "TP-Link TL-WR841N/ND v9"
-        },
-        "software": {
-          "firmware": {
-            "release": "stable-2015.1.0-0",
-            "base": "gluon-v2014.4-690-g631403c"
-          },
-          "autoupdater": {
-            "enabled": true,
-            "branch": "stable"
-          },
-          "batman-adv": {
-            "version": "2014.4.0",
-            "compat": 15
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v17"
-          }
-        },
-        "owner": {
-          "contact": "kontakt@visuellverstehen.de"
-        }
       },
-      "firstseen": "2015-05-04T19:50:02",
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "e8de272ff0e2": {
       "statistics": {
         "gateway": "schleuse02",
-        "clients": 2,
-        "loadavg": 0.08,
-        "memory_usage": 0.8678487325114281,
-        "uptime": 1963188.61,
-        "rootfs_usage": 0.41666666666667
+        "rootfs_usage": 0.40277777777778,
+        "clients": 1,
+        "uptime": 1204345.15,
+        "memory_usage": 0.8512820512820513,
+        "loadavg": 0
       },
-      "flags": {
-        "gateway": false,
-        "online": true
-      }
-    },
-    "e8de27304276": {
-      "lastseen": "2015-09-01T00:21:02",
+      "firstseen": "2015-10-02T12:49:02",
       "nodeinfo": {
+        "node_id": "e8de272ff0e2",
         "system": {
           "site_code": "foerdefunk"
         },
-        "network": {
-          "addresses": ["fdff:49:461:0:eade:27ff:fe30:4276", "fe80:0:0:0:eade:27ff:fe30:4276", "2001:bf7:6:0:eade:27ff:fe30:4276"],
-          "mac": "e8:de:27:30:42:76",
-          "mesh_interfaces": ["ea:e2:27:30:42:76"]
+        "owner": {
+          "contact": "felix@wlan-fabrik.de"
         },
-        "node_id": "e8de27304276",
-        "hostname": "boje-spralexx-841n",
         "hardware": {
-          "nproc": 1,
-          "model": "TP-Link TL-WR841N/ND v9"
+          "model": "TP-Link TL-WR841N/ND v9",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.79533,
+          "longitude": 9.43024
+        },
+        "hostname": "phaenomenta_cafe1og",
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": ["ea:e2:27:2f:f0:e2"]
+              }
+            }
+          },
+          "mesh_interfaces": ["ea:e2:27:2f:f0:e2"],
+          "addresses": ["fdff:49:461:0:eade:27ff:fe2f:f0e2", "fe80:0:0:0:eade:27ff:fe2f:f0e2", "2001:bf7:6:0:eade:27ff:fe2f:f0e2"],
+          "mac": "e8:de:27:2f:f0:e2"
         },
         "software": {
-          "firmware": {
-            "release": "stable-2015.1.0-0",
-            "base": "gluon-v2014.4-690-g631403c"
-          },
           "autoupdater": {
             "enabled": true,
             "branch": "stable"
           },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
           "batman-adv": {
-            "version": "2014.4.0",
+            "version": "2015.0",
             "compat": 15
           },
           "fastd": {
-            "enabled": true,
-            "version": "v17"
+            "version": "v17",
+            "enabled": true
           }
-        },
-        "owner": {
-          "contact": "@spralexx"
         }
-      },
-      "firstseen": "2015-08-31T16:21:01",
-      "statistics": {
-        "gateway": "schleuse01",
-        "clients": 0,
-        "loadavg": 0,
-        "memory_usage": 0.8333564205568638,
-        "uptime": 28833.87,
-        "rootfs_usage": 0.39583333333333
       },
       "flags": {
         "gateway": false,
         "online": true
-      }
+      },
+      "lastseen": "2015-11-20T08:11:01"
     },
-    "e8de2730424e": {
-      "lastseen": "2015-09-01T00:21:02",
+    "30b5c2b05254": {
+      "statistics": {
+        "gateway": "schleuse01",
+        "rootfs_usage": 0.0625,
+        "clients": 3,
+        "uptime": 1163425.63,
+        "memory_usage": 0.4388081111038664,
+        "loadavg": 0.04
+      },
+      "firstseen": "2015-09-14T12:14:01",
       "nodeinfo": {
+        "node_id": "30b5c2b05254",
         "system": {
           "site_code": "foerdefunk"
         },
+        "owner": {
+          "contact": "Info@FoerdeFunk.de"
+        },
+        "hardware": {
+          "model": "TP-Link TL-WR1043N/ND v2",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.793409,
+          "longitude": 9.431373
+        },
+        "hostname": "Boje_8",
         "network": {
-          "addresses": ["fe80:0:0:0:eade:27ff:fe30:424e", "2001:bf7:6:0:eade:27ff:fe30:424e", "fdff:49:461:0:eade:27ff:fe30:424e"],
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": ["32:b9:c2:b0:52:54"],
+                "wireless": ["32:b8:c3:b0:52:54"]
+              }
+            }
+          },
+          "mesh_interfaces": ["32:b9:c2:b0:52:54", "32:b8:c3:b0:52:54"],
+          "addresses": ["2001:bf7:6:0:32b5:c2ff:feb0:5254", "fdff:49:461:0:32b5:c2ff:feb0:5254", "fe80:0:0:0:32b5:c2ff:feb0:5254"],
+          "mac": "30:b5:c2:b0:52:54"
+        },
+        "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "stable"
+          },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
+          "batman-adv": {
+            "version": "2015.0",
+            "compat": 15
+          },
+          "fastd": {
+            "version": "v17",
+            "enabled": true
+          }
+        }
+      },
+      "flags": {
+        "gateway": false,
+        "online": true
+      },
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "c4e984b0cb30": {
+      "statistics": {
+        "gateway": "schleuse01",
+        "rootfs_usage": 0.075819672131147,
+        "clients": 1,
+        "uptime": 4212574.04,
+        "memory_usage": 0.42068201082349876,
+        "loadavg": 0
+      },
+      "firstseen": "2015-10-27T16:30:01",
+      "nodeinfo": {
+        "node_id": "c4e984b0cb30",
+        "system": {
+          "site_code": "foerdefunk"
+        },
+        "owner": {
+          "contact": "felix@wlan-fabrik.de"
+        },
+        "hardware": {
+          "model": "TP-Link CPE210 v1.0",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.79081,
+          "longitude": 9.42879
+        },
+        "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "stable"
+          },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
+          "batman-adv": {
+            "version": "2015.0",
+            "compat": 15
+          },
+          "fastd": {
+            "version": "v17",
+            "enabled": true
+          }
+        },
+        "hostname": "wiflix-rummelgang",
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": ["c6:ea:84:b0:cb:30"],
+                "tunnel": ["c6:ed:84:b0:cb:30"]
+              }
+            }
+          },
+          "mesh_interfaces": ["c6:ed:84:b0:cb:30", "c6:ea:84:b0:cb:30"],
+          "addresses": ["2001:bf7:6:0:c6e9:84ff:feb0:cb30", "fdff:49:461:0:c6e9:84ff:feb0:cb30", "fe80:0:0:0:c6e9:84ff:feb0:cb30"],
+          "mac": "c4:e9:84:b0:cb:30"
+        }
+      },
+      "flags": {
+        "gateway": false,
+        "online": true
+      },
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "e8de2730424e": {
+      "statistics": {
+        "gateway": "schleuse01",
+        "rootfs_usage": 0.40277777777778,
+        "clients": 1,
+        "uptime": 4459562.06,
+        "memory_usage": 0.7818433818433819,
+        "loadavg": 0.39
+      },
+      "firstseen": "2015-08-26T13:22:01",
+      "nodeinfo": {
+        "node_id": "e8de2730424e",
+        "system": {
+          "site_code": "foerdefunk"
+        },
+        "owner": {
+          "contact": "felix@wlan-fabrik.de"
+        },
+        "hardware": {
+          "model": "TP-Link TL-WR841N/ND v9",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.7936,
+          "longitude": 9.43121
+        },
+        "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "stable"
+          },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
+          "batman-adv": {
+            "version": "2015.0",
+            "compat": 15
+          },
+          "fastd": {
+            "version": "v17",
+            "enabled": true
+          }
+        },
+        "hostname": "bits-und-bytes-B",
+        "network": {
           "mesh": {
             "bat0": {
               "interfaces": {
@@ -286,435 +438,582 @@
               }
             }
           },
-          "mac": "e8:de:27:30:42:4e",
-          "mesh_interfaces": ["ea:e2:27:30:42:4e", "ea:e1:28:30:42:4e"]
+          "mesh_interfaces": ["ea:e2:27:30:42:4e", "ea:e1:28:30:42:4e"],
+          "addresses": ["fe80:0:0:0:eade:27ff:fe30:424e", "2001:bf7:6:0:eade:27ff:fe30:424e", "fdff:49:461:0:eade:27ff:fe30:424e"],
+          "mac": "e8:de:27:30:42:4e"
+        }
+      },
+      "flags": {
+        "gateway": false,
+        "online": true
+      },
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "e894f651c6ec": {
+      "statistics": {
+        "gateway": "schleuse01",
+        "rootfs_usage": 0.39583333333333,
+        "clients": 0,
+        "uptime": 314407.64,
+        "memory_usage": 0.8317394317394318,
+        "loadavg": 0.12
+      },
+      "firstseen": "2015-09-28T15:14:01",
+      "nodeinfo": {
+        "node_id": "e894f651c6ec",
+        "system": {
+          "site_code": "foerdefunk"
         },
-        "node_id": "e8de2730424e",
-        "location": {
-          "latitude": 54.7936,
-          "longitude": 9.43121
+        "owner": {
+          "contact": "info@homwer.com"
         },
-        "hostname": "bits-und-bytes-B",
         "hardware": {
-          "nproc": 1,
-          "model": "TP-Link TL-WR841N/ND v9"
+          "model": "TP-Link TL-WR841N/ND v9",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.78107,
+          "longitude": 9.43337
+        },
+        "hostname": "Rathaus",
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": ["ea:98:f6:51:c6:ec"],
+                "wireless": ["ea:97:f7:51:c6:ec"]
+              }
+            }
+          },
+          "mesh_interfaces": ["ea:98:f6:51:c6:ec", "ea:97:f7:51:c6:ec"],
+          "addresses": ["2001:bf7:6:0:ea94:f6ff:fe51:c6ec", "fdff:49:461:0:ea94:f6ff:fe51:c6ec", "fe80:0:0:0:ea94:f6ff:fe51:c6ec"],
+          "mac": "e8:94:f6:51:c6:ec"
         },
         "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "stable"
+          },
           "firmware": {
-            "release": "stable-2015-08",
-            "base": "gluon-v2015.1.2"
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
           },
           "batman-adv": {
             "version": "2015.0",
             "compat": 15
           },
-          "autoupdater": {
-            "enabled": true,
-            "branch": "stable"
-          },
           "fastd": {
-            "enabled": true,
-            "version": "v17"
+            "version": "v17",
+            "enabled": true
           }
-        },
-        "owner": {
-          "contact": "felix@wlan-fabrik.de"
         }
-      },
-      "firstseen": "2015-08-26T13:22:01",
-      "statistics": {
-        "gateway": "schleuse02",
-        "clients": 4,
-        "loadavg": 0,
-        "memory_usage": 0.738045738045738,
-        "uptime": 60717.93,
-        "rootfs_usage": 0.40277777777778
       },
       "flags": {
         "gateway": false,
         "online": true
-      }
+      },
+      "lastseen": "2015-11-20T08:11:01"
     },
-    "e8de27304252": {
-      "lastseen": "2015-09-01T00:21:02",
+    "14cc20b0d584": {
+      "statistics": {
+        "gateway": "schleuse01",
+        "rootfs_usage": 0.39583333333333,
+        "clients": 0,
+        "uptime": 564359.98,
+        "memory_usage": 0.8754675162764926,
+        "loadavg": 0.01
+      },
+      "firstseen": "2015-11-13T19:26:01",
       "nodeinfo": {
+        "node_id": "14cc20b0d584",
         "system": {
           "site_code": "foerdefunk"
         },
-        "network": {
-          "addresses": ["2001:bf7:6:0:eade:27ff:fe30:4252", "fdff:49:461:0:eade:27ff:fe30:4252", "fe80:0:0:0:eade:27ff:fe30:4252"],
-          "mac": "e8:de:27:30:42:52",
-          "mesh_interfaces": ["ea:e2:27:30:42:52"]
-        },
-        "node_id": "e8de27304252",
-        "location": {
-          "latitude": 54.793552,
-          "longitude": 9.430636
-        },
-        "hostname": "fpfle_02",
         "hardware": {
-          "nproc": 1,
-          "model": "TP-Link TL-WR841N/ND v9"
+          "model": "TP-Link TL-WR841N/ND v9",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.7857094,
+          "longitude": 9.4456644
+        },
+        "hostname": "Phobos",
+        "network": {
+          "mesh_interfaces": ["16:d0:20:b0:d5:84"],
+          "addresses": ["fdff:49:461:0:16cc:20ff:feb0:d584", "fe80:0:0:0:16cc:20ff:feb0:d584", "2001:bf7:6:0:16cc:20ff:feb0:d584"],
+          "mac": "14:cc:20:b0:d5:84"
         },
         "software": {
-          "firmware": {
-            "release": "stable-2015.1.0-0",
-            "base": "gluon-v2014.4-690-g631403c"
-          },
           "autoupdater": {
             "enabled": true,
             "branch": "stable"
+          },
+          "firmware": {
+            "base": "gluon-v2014.4-690-g631403c",
+            "release": "stable-2015.1.0-0"
           },
           "batman-adv": {
             "version": "2014.4.0",
             "compat": 15
           },
           "fastd": {
-            "enabled": true,
-            "version": "v17"
+            "version": "v17",
+            "enabled": true
           }
-        },
-        "owner": {
-          "contact": "mail@flemming-petersen.de"
         }
-      },
-      "firstseen": "2015-06-01T16:09:01",
-      "statistics": {
-        "gateway": "schleuse01",
-        "clients": 1,
-        "loadavg": 0.07,
-        "memory_usage": 0.8487325114281756,
-        "uptime": 1963188.62,
-        "rootfs_usage": 0.39583333333333
       },
       "flags": {
         "gateway": false,
         "online": true
-      }
-    },
-    "a0f3c1d8b4e4": {
-      "lastseen": "2015-09-01T00:21:02",
-      "nodeinfo": {
-        "system": {
-          "site_code": "foerdefunk"
-        },
-        "network": {
-          "addresses": ["2001:bf7:6:0:a2f3:c1ff:fed8:b4e4", "fdff:49:461:0:a2f3:c1ff:fed8:b4e4", "fe80:0:0:0:a2f3:c1ff:fed8:b4e4"],
-          "mac": "a0:f3:c1:d8:b4:e4",
-          "mesh_interfaces": ["a2:f7:c1:d8:b4:e4"]
-        },
-        "node_id": "a0f3c1d8b4e4",
-        "location": {
-          "latitude": 54.802942089492,
-          "longitude": 9.4218116998672
-        },
-        "hostname": "Schwerkraftlabor-Ost",
-        "hardware": {
-          "nproc": 1,
-          "model": "TP-Link TL-WR841N/ND v8"
-        },
-        "software": {
-          "firmware": {
-            "release": "stable-2015.1.0-0",
-            "base": "gluon-v2014.4-690-g631403c"
-          },
-          "autoupdater": {
-            "enabled": true,
-            "branch": "stable"
-          },
-          "batman-adv": {
-            "version": "2014.4.0",
-            "compat": 15
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v17"
-          }
-        },
-        "owner": {
-          "contact": "jan@schwerkraftlabor.de"
-        }
       },
-      "firstseen": "2015-06-23T15:35:01",
-      "statistics": {
-        "gateway": "schleuse01",
-        "clients": 3,
-        "loadavg": 0.02,
-        "memory_usage": 0.8931985039479152,
-        "uptime": 1959973.22,
-        "rootfs_usage": 0.39583333333333
-      },
-      "flags": {
-        "gateway": false,
-        "online": true
-      }
+      "lastseen": "2015-11-20T08:11:01"
     },
     "e894f6d46862": {
-      "lastseen": "2015-09-01T00:21:02",
+      "statistics": {
+        "gateway": "schleuse02",
+        "rootfs_usage": 0.063356164383562,
+        "clients": 1,
+        "uptime": 813222,
+        "memory_usage": 0.2638928469649473,
+        "loadavg": 0.05
+      },
+      "firstseen": "2015-08-26T20:03:01",
       "nodeinfo": {
+        "node_id": "e894f6d46862",
         "system": {
           "site_code": "foerdefunk"
         },
-        "network": {
-          "addresses": ["2001:bf7:6:0:ea94:f6ff:fed4:6862", "fdff:49:461:0:ea94:f6ff:fed4:6862", "fe80:0:0:0:ea94:f6ff:fed4:6862"],
-          "mac": "e8:94:f6:d4:68:62",
-          "mesh_interfaces": ["ea:98:f6:d4:68:62", "ea:97:f7:d4:68:62", "ea:97:f8:d4:68:62"]
+        "hardware": {
+          "model": "TP-Link TL-WDR4300 v1",
+          "nproc": 1
         },
-        "node_id": "e894f6d46862",
         "location": {
           "latitude": 54.80546,
           "longitude": 9.415647
         },
-        "hostname": "Homwer.com_Tonne_5",
-        "hardware": {
-          "nproc": 1,
-          "model": "TP-Link TL-WDR4300 v1"
-        },
         "software": {
-          "firmware": {
-            "release": "stable-2015.1.0-0",
-            "base": "gluon-v2014.4-690-g631403c"
-          },
           "autoupdater": {
             "enabled": true,
             "branch": "stable"
           },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
           "batman-adv": {
-            "version": "2014.4.0",
+            "version": "2015.0",
             "compat": 15
           },
           "fastd": {
-            "enabled": true,
-            "version": "v17"
+            "version": "v17",
+            "enabled": true
           }
+        },
+        "hostname": "Homwer.com_Tonne_5",
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": ["ea:98:f6:d4:68:62"],
+                "wireless": ["ea:97:f7:d4:68:62", "ea:97:f8:d4:68:62"]
+              }
+            }
+          },
+          "mesh_interfaces": ["ea:98:f6:d4:68:62", "ea:97:f8:d4:68:62", "ea:97:f7:d4:68:62"],
+          "addresses": ["2001:bf7:6:0:ea94:f6ff:fed4:6862", "fdff:49:461:0:ea94:f6ff:fed4:6862", "fe80:0:0:0:ea94:f6ff:fed4:6862"],
+          "mac": "e8:94:f6:d4:68:62"
         }
-      },
-      "firstseen": "2015-08-26T20:03:01",
-      "statistics": {
-        "gateway": "schleuse02",
-        "clients": 2,
-        "loadavg": 0.02,
-        "memory_usage": 0.24195029286053504,
-        "uptime": 445215.09,
-        "rootfs_usage": 0.063356164383562
       },
       "flags": {
         "gateway": false,
         "online": true
-      }
+      },
+      "lastseen": "2015-11-20T08:11:01"
     },
-    "e894f6aaea0c": {
-      "lastseen": "2015-09-01T00:21:02",
+    "e8de273041bc": {
+      "statistics": {
+        "gateway": "schleuse01",
+        "rootfs_usage": 0.39583333333333,
+        "clients": 3,
+        "uptime": 343336.33,
+        "memory_usage": 0.8755370755370755,
+        "loadavg": 0
+      },
+      "firstseen": "2015-11-16T08:50:01",
       "nodeinfo": {
+        "node_id": "e8de273041bc",
         "system": {
           "site_code": "foerdefunk"
         },
-        "network": {
-          "addresses": ["fe80:0:0:0:ea94:f6ff:feaa:ea0c", "2001:bf7:6:0:ea94:f6ff:feaa:ea0c", "fdff:49:461:0:ea94:f6ff:feaa:ea0c"],
-          "mac": "e8:94:f6:aa:ea:0c",
-          "mesh_interfaces": ["ea:98:f6:aa:ea:0c"]
+        "owner": {
+          "contact": "felix@wlan-fabrik.de"
         },
-        "node_id": "e894f6aaea0c",
-        "location": {
-          "latitude": 54.77928,
-          "longitude": 9.435425
-        },
-        "hostname": "das_ike-Schleswiger5",
         "hardware": {
-          "nproc": 1,
-          "model": "TP-Link TL-WR841N/ND v8"
+          "model": "TP-Link TL-WR841N/ND v9",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.79541,
+          "longitude": 9.43028
+        },
+        "hostname": "phaenomenta_vorplatz",
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": ["ea:e2:27:30:41:bc"]
+              }
+            }
+          },
+          "mesh_interfaces": ["ea:e2:27:30:41:bc"],
+          "addresses": ["fdff:49:461:0:eade:27ff:fe30:41bc", "fe80:0:0:0:eade:27ff:fe30:41bc", "2001:bf7:6:0:eade:27ff:fe30:41bc"],
+          "mac": "e8:de:27:30:41:bc"
         },
         "software": {
-          "firmware": {
-            "release": "stable-2015.1.0-0",
-            "base": "gluon-v2014.4-690-g631403c"
-          },
           "autoupdater": {
             "enabled": true,
-            "branch": "beta"
+            "branch": "stable"
+          },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
           },
           "batman-adv": {
-            "version": "2014.4.0",
+            "version": "2015.0",
             "compat": 15
           },
           "fastd": {
-            "enabled": true,
-            "version": "v17"
+            "version": "v17",
+            "enabled": true
           }
+        }
+      },
+      "flags": {
+        "gateway": false,
+        "online": true
+      },
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "e894f63f637c": {
+      "statistics": {
+        "gateway": "schleuse02",
+        "rootfs_usage": 0.076198630136986,
+        "clients": 0,
+        "uptime": 115503.82,
+        "memory_usage": 0.24258256546657797,
+        "loadavg": 0.58
+      },
+      "firstseen": "2015-10-20T13:53:01",
+      "nodeinfo": {
+        "node_id": "e894f63f637c",
+        "system": {
+          "site_code": "foerdefunk"
+        },
+        "owner": {
+          "contact": "Info@FoerdeFunk.de"
+        },
+        "hardware": {
+          "model": "TP-Link TL-WDR4300 v1",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.794242,
+          "longitude": 9.429422
+        },
+        "hostname": "PPS.RF.Uplink",
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": ["ea:95:f7:3f:63:7c"],
+                "tunnel": ["ea:98:f6:3f:63:7c"],
+                "wireless": ["ea:97:f7:3f:63:7c", "ea:97:f8:3f:63:7c"]
+              }
+            }
+          },
+          "mesh_interfaces": ["ea:95:f7:3f:63:7c", "ea:97:f8:3f:63:7c", "ea:97:f7:3f:63:7c", "ea:98:f6:3f:63:7c"],
+          "addresses": ["fdff:49:461:0:ea94:f6ff:fe3f:637c", "2001:bf7:6:0:ea94:f6ff:fe3f:637c", "fe80:0:0:0:ea94:f6ff:fe3f:637c"],
+          "mac": "e8:94:f6:3f:63:7c"
+        },
+        "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "stable"
+          },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
+          "batman-adv": {
+            "version": "2015.0",
+            "compat": 15
+          },
+          "fastd": {
+            "version": "v17",
+            "enabled": true
+          }
+        }
+      },
+      "flags": {
+        "gateway": false,
+        "online": true
+      },
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "f81a6732b766": {
+      "statistics": {
+        "gateway": "schleuse01",
+        "rootfs_usage": 0.063356164383562,
+        "clients": 0,
+        "uptime": 306520.74,
+        "memory_usage": 0.8945252945252945,
+        "loadavg": 0.04
+      },
+      "firstseen": "2015-11-16T19:04:01",
+      "nodeinfo": {
+        "node_id": "f81a6732b766",
+        "system": {
+          "site_code": "foerdefunk"
         },
         "owner": {
           "contact": "facebook.com/eike.we"
-        }
-      },
-      "firstseen": "2015-05-06T09:26:02",
-      "statistics": {
-        "gateway": "schleuse02",
-        "clients": 0,
-        "loadavg": 0,
-        "memory_usage": 0.8098074525557557,
-        "uptime": 1180316.95,
-        "rootfs_usage": 0.40972222222222
-      },
-      "flags": {
-        "gateway": false,
-        "online": true
-      }
-    },
-    "e8de27304218": {
-      "lastseen": "2015-09-01T00:21:02",
-      "nodeinfo": {
-        "system": {
-          "site_code": "foerdefunk"
         },
-        "network": {
-          "addresses": ["fdff:49:461:0:eade:27ff:fe30:4218", "fe80:0:0:0:eade:27ff:fe30:4218", "2001:bf7:6:0:eade:27ff:fe30:4218"],
-          "mac": "e8:de:27:30:42:18",
-          "mesh_interfaces": ["ea:e2:27:30:42:18"]
-        },
-        "node_id": "e8de27304218",
-        "location": {
-          "latitude": 54.832221294468,
-          "longitude": 9.5615869760513
-        },
-        "hostname": "yoga-gluecksburg.de",
         "hardware": {
-          "nproc": 1,
-          "model": "TP-Link TL-WR841N/ND v9"
+          "model": "TP-Link TL-WR1043N/ND v1",
+          "nproc": 1
         },
         "software": {
-          "firmware": {
-            "release": "stable-2015.1.0-0",
-            "base": "gluon-v2014.4-690-g631403c"
-          },
           "autoupdater": {
             "enabled": true,
             "branch": "stable"
           },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
           "batman-adv": {
-            "version": "2014.4.0",
+            "version": "2015.0",
             "compat": 15
           },
           "fastd": {
-            "enabled": true,
-            "version": "v17"
+            "version": "v17",
+            "enabled": true
           }
+        },
+        "hostname": "fffl-DiePARTEI-4",
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": ["fa:1e:67:32:b7:66"],
+                "wireless": ["fa:1d:68:32:b7:66"]
+              }
+            }
+          },
+          "mesh_interfaces": ["fa:1e:67:32:b7:66", "fa:1d:68:32:b7:66"],
+          "addresses": ["2001:bf7:6:0:fa1a:67ff:fe32:b766", "fdff:49:461:0:fa1a:67ff:fe32:b766", "fe80:0:0:0:fa1a:67ff:fe32:b766"],
+          "mac": "f8:1a:67:32:b7:66"
         }
-      },
-      "firstseen": "2015-08-15T04:56:01",
-      "statistics": {
-        "gateway": "schleuse01",
-        "clients": 0,
-        "loadavg": 0.05,
-        "memory_usage": 0.9028951378307245,
-        "uptime": 136722.82,
-        "rootfs_usage": 0.40972222222222
       },
       "flags": {
         "gateway": false,
         "online": true
-      }
+      },
+      "lastseen": "2015-11-20T08:11:01"
     },
-    "schleuse01": {
-      "lastseen": "2015-09-01T00:21:02",
+    "e8de27304252": {
+      "statistics": {
+        "gateway": "schleuse02",
+        "rootfs_usage": 0.39583333333333,
+        "clients": 2,
+        "uptime": 5804706.42,
+        "memory_usage": 0.8002772002772003,
+        "loadavg": 0.29
+      },
+      "firstseen": "2015-06-01T16:09:01",
       "nodeinfo": {
-        "node_id": "schleuse01",
+        "node_id": "e8de27304252",
+        "system": {
+          "site_code": "foerdefunk"
+        },
+        "owner": {
+          "contact": "mail@flemming-petersen.de"
+        },
+        "hardware": {
+          "model": "TP-Link TL-WR841N/ND v9",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.793552,
+          "longitude": 9.430636
+        },
+        "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "stable"
+          },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
+          "batman-adv": {
+            "version": "2015.0",
+            "compat": 15
+          },
+          "fastd": {
+            "version": "v17",
+            "enabled": true
+          }
+        },
+        "hostname": "fpfle_02",
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": ["ea:e2:27:30:42:52"]
+              }
+            }
+          },
+          "mesh_interfaces": ["ea:e2:27:30:42:52"],
+          "addresses": ["2001:bf7:6:0:eade:27ff:fe30:4252", "fdff:49:461:0:eade:27ff:fe30:4252", "fe80:0:0:0:eade:27ff:fe30:4252"],
+          "mac": "e8:de:27:30:42:52"
+        }
+      },
+      "flags": {
+        "gateway": false,
+        "online": true
+      },
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "60e3275fd5aa": {
+      "statistics": {
+        "gateway": "schleuse02",
+        "rootfs_usage": 0.39583333333333,
+        "clients": 1,
+        "uptime": 2134141.04,
+        "memory_usage": 0.894941094941095,
+        "loadavg": 0.02
+      },
+      "firstseen": "2015-10-26T15:24:01",
+      "nodeinfo": {
+        "node_id": "60e3275fd5aa",
+        "system": {
+          "site_code": "foerdefunk"
+        },
+        "owner": {
+          "contact": "info@foerdefunk.de"
+        },
+        "hardware": {
+          "model": "TP-Link TL-WR841N/ND v9",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.518162,
+          "longitude": 9.563258
+        },
+        "hostname": "AmbulanterHospizdienst",
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": ["62:e7:27:5f:d5:aa"],
+                "wireless": ["62:e6:28:5f:d5:aa"]
+              }
+            }
+          },
+          "mesh_interfaces": ["62:e7:27:5f:d5:aa", "62:e6:28:5f:d5:aa"],
+          "addresses": ["2001:bf7:6:0:62e3:27ff:fe5f:d5aa", "fdff:49:461:0:62e3:27ff:fe5f:d5aa", "fe80:0:0:0:62e3:27ff:fe5f:d5aa"],
+          "mac": "60:e3:27:5f:d5:aa"
+        },
+        "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "stable"
+          },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
+          "batman-adv": {
+            "version": "2015.0",
+            "compat": 15
+          },
+          "fastd": {
+            "version": "v17",
+            "enabled": true
+          }
+        }
+      },
+      "flags": {
+        "gateway": false,
+        "online": true
+      },
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "schleuse02": {
+      "statistics": {
+        "loadavg": 0.14,
+        "memory_usage": 0.17133196049058708,
+        "uptime": 302668.72,
+        "clients": 0
+      },
+      "firstseen": "2015-05-07T16:28:33",
+      "nodeinfo": {
+        "node_id": "schleuse02",
         "vpn": true,
-        "hostname": "schleuse01",
         "software": {
           "firmware": {
-            "release": "14.04",
-            "base": "Ubuntu"
+            "base": "Ubuntu",
+            "release": "14.04"
           },
           "batman-adv": {
             "version": "2013.5.0"
           },
           "fastd": {
-            "enabled": true,
-            "version": "v17"
+            "version": "v17",
+            "enabled": true
           }
         },
+        "hostname": "schleuse02",
         "network": {
-          "mac": "66:08:8c:95:8d:54",
-          "mesh_interfaces": ["52:54:00:f2:27:8a", "fe:ed:de:ad:be:ef"]
+          "mesh_interfaces": ["fe:ed:de:ad:be:ee", "52:54:00:cd:4c:91"],
+          "mac": "d2:a3:97:d8:45:8d"
         }
-      },
-      "firstseen": "2015-05-07T16:24:56",
-      "statistics": {
-        "memory_usage": 0.3343527547104185,
-        "uptime": 618447.9,
-        "clients": 0,
-        "loadavg": 0.0
       },
       "flags": {
         "gateway": true,
         "online": true
-      }
-    },
-    "e894f6cd6624": {
-      "lastseen": "2015-09-01T00:21:02",
-      "nodeinfo": {
-        "system": {
-          "site_code": "foerdefunk"
-        },
-        "network": {
-          "addresses": ["fdff:49:461:0:ea94:f6ff:fecd:6624", "fe80:0:0:0:ea94:f6ff:fecd:6624", "2001:bf7:6:0:ea94:f6ff:fecd:6624"],
-          "mac": "e8:94:f6:cd:66:24",
-          "mesh_interfaces": ["ea:97:f7:cd:66:24", "ea:98:f6:cd:66:24", "ea:97:f8:cd:66:24"]
-        },
-        "node_id": "e894f6cd6624",
-        "location": {
-          "latitude": 54.79381,
-          "longitude": 9.4314
-        },
-        "hostname": "Die-Linke",
-        "hardware": {
-          "nproc": 1,
-          "model": "TP-Link TL-WDR4300 v1"
-        },
-        "software": {
-          "firmware": {
-            "release": "stable-2015.1.0-0",
-            "base": "gluon-v2014.4-690-g631403c"
-          },
-          "autoupdater": {
-            "enabled": true,
-            "branch": "stable"
-          },
-          "batman-adv": {
-            "version": "2014.4.0",
-            "compat": 15
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v17"
-          }
-        },
-        "owner": {
-          "contact": "jezewski@gmx.de"
-        }
       },
-      "firstseen": "2015-05-13T12:06:01",
-      "statistics": {
-        "gateway": "schleuse02",
-        "clients": 5,
-        "loadavg": 0.39,
-        "memory_usage": 0.255659331961374,
-        "uptime": 465244.52,
-        "rootfs_usage": 0.0625
-      },
-      "flags": {
-        "gateway": false,
-        "online": true
-      }
+      "lastseen": "2015-11-20T08:11:01"
     },
     "e8de272ff0aa": {
-      "lastseen": "2015-09-01T00:21:02",
+      "statistics": {
+        "gateway": "schleuse02",
+        "rootfs_usage": 0.40277777777778,
+        "clients": 0,
+        "uptime": 312520.58,
+        "memory_usage": 0.8798336798336799,
+        "loadavg": 0.31
+      },
+      "firstseen": "2015-06-02T15:16:01",
       "nodeinfo": {
+        "node_id": "e8de272ff0aa",
         "system": {
           "site_code": "foerdefunk"
         },
+        "owner": {
+          "contact": "felix@wlan-fabrik.de"
+        },
+        "hardware": {
+          "model": "TP-Link TL-WR841N/ND v9",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.79044,
+          "longitude": 9.42956
+        },
+        "hostname": "boje-chaostreff",
         "network": {
-          "addresses": ["fdff:49:461:0:eade:27ff:fe2f:f0aa", "2001:bf7:6:0:eade:27ff:fe2f:f0aa", "fe80:0:0:0:eade:27ff:fe2f:f0aa"],
           "mesh": {
             "bat0": {
               "interfaces": {
@@ -723,180 +1022,908 @@
               }
             }
           },
-          "mac": "e8:de:27:2f:f0:aa",
-          "mesh_interfaces": ["ea:e1:28:2f:f0:aa", "ea:e2:27:2f:f0:aa"]
-        },
-        "node_id": "e8de272ff0aa",
-        "location": {
-          "latitude": 54.79044,
-          "longitude": 9.42956
-        },
-        "hostname": "boje-chaostreff",
-        "hardware": {
-          "nproc": 1,
-          "model": "TP-Link TL-WR841N/ND v9"
+          "mesh_interfaces": ["ea:e1:28:2f:f0:aa", "ea:e2:27:2f:f0:aa"],
+          "addresses": ["fdff:49:461:0:eade:27ff:fe2f:f0aa", "2001:bf7:6:0:eade:27ff:fe2f:f0aa", "fe80:0:0:0:eade:27ff:fe2f:f0aa"],
+          "mac": "e8:de:27:2f:f0:aa"
         },
         "software": {
-          "firmware": {
-            "release": "beta-2015.1.2-201508242129",
-            "base": "gluon-v2015.1.2"
-          },
-          "batman-adv": {
-            "version": "2015.0",
-            "compat": 15
-          },
           "autoupdater": {
             "enabled": true,
             "branch": "beta"
           },
-          "fastd": {
-            "enabled": true,
-            "version": "v17"
-          }
-        },
-        "owner": {
-          "contact": "felix@wlan-fabrik.de"
-        }
-      },
-      "firstseen": "2015-06-02T15:16:01",
-      "statistics": {
-        "gateway": "schleuse01",
-        "clients": 1,
-        "loadavg": 0,
-        "memory_usage": 0.7981981981981983,
-        "uptime": 598031.46,
-        "rootfs_usage": 0.40277777777778
-      },
-      "flags": {
-        "gateway": false,
-        "online": true
-      }
-    },
-    "c4e984b0cb30": {
-      "lastseen": "2015-08-31T08:42:02",
-      "nodeinfo": {
-        "system": {
-          "site_code": "foerdefunk"
-        },
-        "network": {
-          "addresses": ["2001:bf7:6:0:c6e9:84ff:feb0:cb30", "fdff:49:461:0:c6e9:84ff:feb0:cb30", "fe80:0:0:0:c6e9:84ff:feb0:cb30"],
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "wireless": ["c6:ec:85:b0:cb:30"],
-                "tunnel": ["c6:ed:84:b0:cb:30"]
-              }
-            }
-          },
-          "mac": "c4:e9:84:b0:cb:30",
-          "mesh_interfaces": ["c6:ed:84:b0:cb:30", "c6:ec:85:b0:cb:30"]
-        },
-        "node_id": "c4e984b0cb30",
-        "location": {
-          "latitude": 54.79081,
-          "longitude": 9.42879
-        },
-        "hostname": "wiflix-rummelgang",
-        "hardware": {
-          "nproc": 1,
-          "model": "TP-Link CPE210 v1.0"
-        },
-        "software": {
           "firmware": {
-            "release": "stable-2015-08",
-            "base": "gluon-v2015.1.2"
-          },
-          "autoupdater": {
-            "branch": "stable",
-            "enabled": true
+            "base": "gluon-v2015.1.2",
+            "release": "beta-2015.1.2-201508242129"
           },
           "batman-adv": {
             "version": "2015.0",
             "compat": 15
           },
           "fastd": {
-            "enabled": true,
-            "version": "v17"
+            "version": "v17",
+            "enabled": true
           }
-        },
-        "owner": {
-          "contact": "felix@wlan-fabrik.de"
         }
-      },
-      "firstseen": "2015-08-30T21:36:01",
-      "statistics": {
-        "clients": 0
       },
       "flags": {
         "gateway": false,
-        "online": false
-      }
+        "online": true
+      },
+      "lastseen": "2015-11-20T08:11:01"
     },
-    "e894f678fba4": {
-      "lastseen": "2015-09-01T00:21:02",
+    "14cc20e15c7a": {
+      "statistics": {
+        "gateway": "schleuse01",
+        "rootfs_usage": 0.063356164383562,
+        "clients": 1,
+        "uptime": 1430665.1,
+        "memory_usage": 0.4269413835821869,
+        "loadavg": 0.5
+      },
+      "firstseen": "2015-11-03T12:00:02",
       "nodeinfo": {
+        "node_id": "14cc20e15c7a",
         "system": {
           "site_code": "foerdefunk"
         },
-        "network": {
-          "addresses": ["2001:bf7:6:0:ea94:f6ff:fe78:fba4", "fdff:49:461:0:ea94:f6ff:fe78:fba4", "fe80:0:0:0:ea94:f6ff:fe78:fba4"],
-          "mac": "e8:94:f6:78:fb:a4",
-          "mesh_interfaces": ["ea:97:f7:78:fb:a4", "ea:98:f6:78:fb:a4"]
+        "hardware": {
+          "model": "TP-Link TL-WR1043N/ND v2",
+          "nproc": 1
         },
+        "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "stable"
+          },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
+          "batman-adv": {
+            "version": "2015.0",
+            "compat": 15
+          },
+          "fastd": {
+            "version": "v17",
+            "enabled": true
+          }
+        },
+        "hostname": "PPS.EG.01",
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": ["16:d0:20:e1:5c:7a"],
+                "wireless": ["16:cf:21:e1:5c:7a"]
+              }
+            }
+          },
+          "mesh_interfaces": ["16:d0:20:e1:5c:7a", "16:cf:21:e1:5c:7a"],
+          "addresses": ["fdff:49:461:0:16cc:20ff:fee1:5c7a", "2001:bf7:6:0:16cc:20ff:fee1:5c7a", "fe80:0:0:0:16cc:20ff:fee1:5c7a"],
+          "mac": "14:cc:20:e1:5c:7a"
+        }
+      },
+      "flags": {
+        "gateway": false,
+        "online": true
+      },
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "c4e984913b0b": {
+      "statistics": {
+        "gateway": "schleuse01",
+        "rootfs_usage": 0.0625,
+        "clients": 0,
+        "uptime": 244277.75,
+        "memory_usage": 0.2380545264557804,
+        "loadavg": 0.19
+      },
+      "firstseen": "2015-11-17T12:21:01",
+      "nodeinfo": {
+        "node_id": "c4e984913b0b",
+        "system": {
+          "site_code": "foerdefunk"
+        },
+        "owner": {
+          "contact": "it@flens.de"
+        },
+        "hardware": {
+          "model": "TP-Link TL-WDR4300 v1",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.7787496,
+          "longitude": 9.4354457
+        },
+        "hostname": "Flensburger-Brauerei-03",
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": ["c6:ed:84:91:3b:0b"],
+                "wireless": ["c6:ec:85:91:3b:0b", "c6:ec:86:91:3b:0b"]
+              }
+            }
+          },
+          "mesh_interfaces": ["c6:ed:84:91:3b:0b", "c6:ec:85:91:3b:0b", "c6:ec:86:91:3b:0b"],
+          "addresses": ["fdff:49:461:0:c6e9:84ff:fe91:3b0b", "2001:bf7:6:0:c6e9:84ff:fe91:3b0b", "fe80:0:0:0:c6e9:84ff:fe91:3b0b"],
+          "mac": "c4:e9:84:91:3b:0b"
+        },
+        "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "stable"
+          },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
+          "batman-adv": {
+            "version": "2015.0",
+            "compat": 15
+          },
+          "fastd": {
+            "version": "v17",
+            "enabled": true
+          }
+        }
+      },
+      "flags": {
+        "gateway": false,
+        "online": true
+      },
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "e894f6973e5a": {
+      "statistics": {
+        "gateway": "schleuse01",
+        "rootfs_usage": 0.39583333333333,
+        "clients": 4,
+        "uptime": 2048494.11,
+        "memory_usage": 0.7469161469161469,
+        "loadavg": 0.14
+      },
+      "firstseen": "2015-10-27T15:11:02",
+      "nodeinfo": {
+        "node_id": "e894f6973e5a",
+        "system": {
+          "site_code": "foerdefunk"
+        },
+        "owner": {
+          "contact": "felix@wlan-fabrik.de"
+        },
+        "hardware": {
+          "model": "TP-Link TL-WR841N/ND v8",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.79543,
+          "longitude": 9.43
+        },
+        "hostname": "phaenomenta_eingang",
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": ["ea:98:f6:97:3e:5a"]
+              }
+            }
+          },
+          "mesh_interfaces": ["ea:98:f6:97:3e:5a"],
+          "addresses": ["2001:bf7:6:0:ea94:f6ff:fe97:3e5a", "fdff:49:461:0:ea94:f6ff:fe97:3e5a", "fe80:0:0:0:ea94:f6ff:fe97:3e5a"],
+          "mac": "e8:94:f6:97:3e:5a"
+        },
+        "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "stable"
+          },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
+          "batman-adv": {
+            "version": "2015.0",
+            "compat": 15
+          },
+          "fastd": {
+            "version": "v17",
+            "enabled": true
+          }
+        }
+      },
+      "flags": {
+        "gateway": false,
+        "online": true
+      },
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "60e327605766": {
+      "statistics": {
+        "gateway": "schleuse02",
+        "rootfs_usage": 0.40277777777778,
+        "clients": 19,
+        "uptime": 88958,
+        "memory_usage": 0.8767844767844768,
+        "loadavg": 0.01
+      },
+      "firstseen": "2015-10-20T15:51:02",
+      "nodeinfo": {
+        "hostname": "boje-pps-001",
+        "system": {
+          "site_code": "foerdefunk"
+        },
+        "hardware": {
+          "model": "TP-Link TL-WR841N/ND v9",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.794466,
+          "longitude": 9.429581
+        },
+        "node_id": "60e327605766",
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": ["62:e4:27:60:57:66"],
+                "tunnel": ["62:e7:27:60:57:66"]
+              }
+            }
+          },
+          "mesh_interfaces": ["62:e7:27:60:57:66", "62:e4:27:60:57:66"],
+          "addresses": ["fdff:49:461:0:62e3:27ff:fe60:5766", "fe80:0:0:0:62e3:27ff:fe60:5766", "2001:bf7:6:0:62e3:27ff:fe60:5766"],
+          "mac": "60:e3:27:60:57:66"
+        },
+        "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "stable"
+          },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
+          "batman-adv": {
+            "version": "2015.0",
+            "compat": 15
+          },
+          "fastd": {
+            "version": "v17",
+            "enabled": true
+          }
+        }
+      },
+      "flags": {
+        "gateway": false,
+        "online": true
+      },
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "e894f678fba4": {
+      "statistics": {
+        "gateway": "schleuse02",
+        "rootfs_usage": 0.40277777777778,
+        "clients": 5,
+        "uptime": 3604899.35,
+        "memory_usage": 0.855994455994456,
+        "loadavg": 0
+      },
+      "firstseen": "2015-10-13T23:19:01",
+      "nodeinfo": {
         "node_id": "e894f678fba4",
+        "system": {
+          "site_code": "foerdefunk"
+        },
+        "owner": {
+          "contact": "info@homwer.com"
+        },
+        "hardware": {
+          "model": "TP-Link TL-WR841N/ND v9",
+          "nproc": 1
+        },
         "location": {
           "latitude": 54.805472,
           "longitude": 9.415433
         },
         "hostname": "Homwer.com",
-        "hardware": {
-          "nproc": 1,
-          "model": "TP-Link TL-WR841N/ND v9"
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": ["ea:98:f6:78:fb:a4"],
+                "wireless": ["ea:97:f7:78:fb:a4"]
+              }
+            }
+          },
+          "mesh_interfaces": ["ea:98:f6:78:fb:a4", "ea:97:f7:78:fb:a4"],
+          "addresses": ["2001:bf7:6:0:ea94:f6ff:fe78:fba4", "fdff:49:461:0:ea94:f6ff:fe78:fba4", "fe80:0:0:0:ea94:f6ff:fe78:fba4"],
+          "mac": "e8:94:f6:78:fb:a4"
         },
         "software": {
-          "firmware": {
-            "release": "stable-2015.1.0-0",
-            "base": "gluon-v2014.4-690-g631403c"
-          },
           "autoupdater": {
             "enabled": true,
             "branch": "stable"
           },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
           "batman-adv": {
-            "version": "2014.4.0",
+            "version": "2015.0",
             "compat": 15
           },
           "fastd": {
-            "enabled": true,
-            "version": "v17"
+            "version": "v17",
+            "enabled": true
           }
-        },
-        "owner": {
-          "contact": "info@homwer.com"
         }
-      },
-      "firstseen": "2015-08-02T09:15:01",
-      "statistics": {
-        "gateway": "schleuse01",
-        "clients": 5,
-        "loadavg": 0,
-        "memory_usage": 0.7352818949993074,
-        "uptime": 303030.45,
-        "rootfs_usage": 0.40277777777778
       },
       "flags": {
         "gateway": false,
         "online": true
-      }
+      },
+      "lastseen": "2015-11-20T08:11:01"
     },
-    "f81a6751719a": {
-      "lastseen": "2015-09-01T00:21:02",
+    "e8de272ff120": {
+      "statistics": {
+        "gateway": "schleuse02",
+        "rootfs_usage": 0.40972222222222,
+        "clients": 5,
+        "uptime": 313945.32,
+        "memory_usage": 0.827997227997228,
+        "loadavg": 0.08
+      },
+      "firstseen": "2015-10-20T15:28:01",
       "nodeinfo": {
+        "node_id": "e8de272ff120",
         "system": {
           "site_code": "foerdefunk"
         },
+        "owner": {
+          "contact": "info@foerdefunk.de"
+        },
+        "hardware": {
+          "model": "TP-Link TL-WR841N/ND v9",
+          "nproc": 1
+        },
+        "hostname": "PPS.EG2",
         "network": {
-          "addresses": ["fe80:0:0:0:fa1a:67ff:fe51:719a", "2001:bf7:6:0:fa1a:67ff:fe51:719a", "fdff:49:461:0:fa1a:67ff:fe51:719a"],
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": ["ea:df:27:2f:f1:20"],
+                "wireless": ["ea:e1:28:2f:f1:20"]
+              }
+            }
+          },
+          "mesh_interfaces": ["ea:e1:28:2f:f1:20", "ea:df:27:2f:f1:20"],
+          "addresses": ["2001:bf7:6:0:eade:27ff:fe2f:f120", "fdff:49:461:0:eade:27ff:fe2f:f120", "fe80:0:0:0:eade:27ff:fe2f:f120"],
+          "mac": "e8:de:27:2f:f1:20"
+        },
+        "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "stable"
+          },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
+          "batman-adv": {
+            "version": "2015.0",
+            "compat": 15
+          },
+          "fastd": {
+            "version": "v17",
+            "enabled": false
+          }
+        }
+      },
+      "flags": {
+        "gateway": false,
+        "online": true
+      },
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "e894f6aaea0c": {
+      "statistics": {
+        "gateway": "schleuse01",
+        "rootfs_usage": 0.39583333333333,
+        "clients": 2,
+        "uptime": 1546800.67,
+        "memory_usage": 0.7446985446985447,
+        "loadavg": 0.03
+      },
+      "firstseen": "2015-05-06T09:26:02",
+      "nodeinfo": {
+        "node_id": "e894f6aaea0c",
+        "system": {
+          "site_code": "foerdefunk"
+        },
+        "owner": {
+          "contact": "facebook.com/eike.we"
+        },
+        "hardware": {
+          "model": "TP-Link TL-WR841N/ND v8",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.77928,
+          "longitude": 9.435425
+        },
+        "hostname": "fffl-DiePARTEI-Schleswiger5",
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": ["ea:98:f6:aa:ea:0c"],
+                "wireless": ["ea:97:f7:aa:ea:0c"]
+              }
+            }
+          },
+          "mesh_interfaces": ["ea:98:f6:aa:ea:0c", "ea:97:f7:aa:ea:0c"],
+          "addresses": ["fe80:0:0:0:ea94:f6ff:feaa:ea0c", "2001:bf7:6:0:ea94:f6ff:feaa:ea0c", "fdff:49:461:0:ea94:f6ff:feaa:ea0c"],
+          "mac": "e8:94:f6:aa:ea:0c"
+        },
+        "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "stable"
+          },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
+          "batman-adv": {
+            "version": "2015.0",
+            "compat": 15
+          },
+          "fastd": {
+            "version": "v17",
+            "enabled": true
+          }
+        }
+      },
+      "flags": {
+        "gateway": false,
+        "online": true
+      },
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "e8de272ff0f0": {
+      "statistics": {
+        "gateway": "schleuse02",
+        "rootfs_usage": 0.39583333333333,
+        "clients": 1,
+        "uptime": 669545.49,
+        "memory_usage": 0.7973665973665973,
+        "loadavg": 0
+      },
+      "firstseen": "2015-11-12T14:14:01",
+      "nodeinfo": {
+        "node_id": "e8de272ff0f0",
+        "system": {
+          "site_code": "foerdefunk"
+        },
+        "owner": {
+          "contact": "Info@FoerdeFunk.de"
+        },
+        "hardware": {
+          "model": "TP-Link TL-WR841N/ND v9",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.844251,
+          "longitude": 9.400459
+        },
+        "hostname": "SexDiscountShop.dk",
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": ["ea:e2:27:2f:f0:f0"],
+                "wireless": ["ea:e1:28:2f:f0:f0"]
+              }
+            }
+          },
+          "mesh_interfaces": ["ea:e2:27:2f:f0:f0", "ea:e1:28:2f:f0:f0"],
+          "addresses": ["fdff:49:461:0:eade:27ff:fe2f:f0f0", "fe80:0:0:0:eade:27ff:fe2f:f0f0", "2001:bf7:6:0:eade:27ff:fe2f:f0f0"],
+          "mac": "e8:de:27:2f:f0:f0"
+        },
+        "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "stable"
+          },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
+          "batman-adv": {
+            "version": "2015.0",
+            "compat": 15
+          },
+          "fastd": {
+            "version": "v17",
+            "enabled": true
+          }
+        }
+      },
+      "flags": {
+        "gateway": false,
+        "online": true
+      },
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "e8de27304218": {
+      "statistics": {
+        "clients": 0
+      },
+      "firstseen": "2015-09-23T14:25:01",
+      "nodeinfo": {
+        "node_id": "e8de27304218",
+        "location": {
+          "latitude": 54.832221294468,
+          "longitude": 9.5615869760513
+        },
+        "hardware": {
+          "model": "TP-Link TL-WR841N/ND v9",
+          "nproc": 1
+        },
+        "system": {
+          "site_code": "foerdefunk"
+        },
+        "hostname": "yoga-gluecksburg.de",
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": ["ea:e2:27:30:42:18"]
+              }
+            }
+          },
+          "mesh_interfaces": ["ea:e2:27:30:42:18"],
+          "addresses": ["fdff:49:461:0:eade:27ff:fe30:4218", "fe80:0:0:0:eade:27ff:fe30:4218", "2001:bf7:6:0:eade:27ff:fe30:4218"],
+          "mac": "e8:de:27:30:42:18"
+        },
+        "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "stable"
+          },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
+          "batman-adv": {
+            "version": "2015.0",
+            "compat": 15
+          },
+          "fastd": {
+            "version": "v17",
+            "enabled": true
+          }
+        }
+      },
+      "flags": {
+        "gateway": false,
+        "online": false
+      },
+      "lastseen": "2015-11-20T05:56:01"
+    },
+    "schleuse01": {
+      "statistics": {
+        "loadavg": 0.07,
+        "memory_usage": 0.1804553700944258,
+        "uptime": 301474.04,
+        "clients": 0
+      },
+      "firstseen": "2015-05-07T16:24:56",
+      "nodeinfo": {
+        "vpn": true,
+        "node_id": "schleuse01",
+        "hostname": "schleuse01",
+        "network": {
+          "mesh_interfaces": ["fe:ed:de:ad:be:ef", "52:54:00:f2:27:8a", "fe:ed:de:ad:be:ed"],
+          "mac": "9a:51:f4:7b:39:10"
+        },
+        "software": {
+          "firmware": {
+            "base": "Ubuntu",
+            "release": "14.04"
+          },
+          "batman-adv": {
+            "version": "2013.5.0"
+          },
+          "fastd": {
+            "version": "v17",
+            "enabled": true
+          }
+        }
+      },
+      "flags": {
+        "gateway": true,
+        "online": true
+      },
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "30b5c23839dd": {
+      "statistics": {
+        "gateway": "schleuse02",
+        "rootfs_usage": 0.063356164383562,
+        "clients": 9,
+        "uptime": 3779456.77,
+        "memory_usage": 0.23301985370950884,
+        "loadavg": 0.17
+      },
+      "firstseen": "2015-05-11T14:37:02",
+      "nodeinfo": {
+        "node_id": "30b5c23839dd",
+        "system": {
+          "site_code": "foerdefunk"
+        },
+        "owner": {
+          "contact": "Info@FoerdeFunk.de"
+        },
+        "hardware": {
+          "model": "TP-Link TL-WDR4300 v1",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.79271,
+          "longitude": 9.43118
+        },
+        "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "stable"
+          },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
+          "batman-adv": {
+            "version": "2015.0",
+            "compat": 15
+          },
+          "fastd": {
+            "version": "v17",
+            "enabled": true
+          }
+        },
+        "hostname": "Kolabor",
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": ["32:b9:c2:38:39:dd"],
+                "wireless": ["32:b8:c4:38:39:dd"]
+              }
+            }
+          },
+          "mesh_interfaces": ["32:b9:c2:38:39:dd", "32:b8:c4:38:39:dd"],
+          "addresses": ["2001:bf7:6:0:32b5:c2ff:fe38:39dd", "fe80:0:0:0:32b5:c2ff:fe38:39dd", "fdff:49:461:0:32b5:c2ff:fe38:39dd"],
+          "mac": "30:b5:c2:38:39:dd"
+        }
+      },
+      "flags": {
+        "gateway": false,
+        "online": true
+      },
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "30b5c238399b": {
+      "statistics": {
+        "gateway": "schleuse02",
+        "rootfs_usage": 0.076198630136986,
+        "clients": 3,
+        "uptime": 86142.87,
+        "memory_usage": 0.24397580823913112,
+        "loadavg": 0.02
+      },
+      "firstseen": "2015-07-27T20:16:01",
+      "nodeinfo": {
+        "hostname": "fpfle",
+        "system": {
+          "site_code": "foerdefunk"
+        },
+        "hardware": {
+          "model": "TP-Link TL-WDR4300 v1",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.794578,
+          "longitude": 9.426565
+        },
+        "node_id": "30b5c238399b",
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": ["32:b9:c2:38:39:9b"]
+              }
+            }
+          },
+          "mesh_interfaces": ["32:b9:c2:38:39:9b"],
+          "addresses": ["2001:bf7:6:0:32b5:c2ff:fe38:399b", "fe80:0:0:0:32b5:c2ff:fe38:399b", "fdff:49:461:0:32b5:c2ff:fe38:399b"],
+          "mac": "30:b5:c2:38:39:9b"
+        },
+        "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "stable"
+          },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
+          "batman-adv": {
+            "version": "2015.0",
+            "compat": 15
+          },
+          "fastd": {
+            "version": "v17",
+            "enabled": true
+          }
+        }
+      },
+      "flags": {
+        "gateway": false,
+        "online": true
+      },
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "c4e984913b59": {
+      "statistics": {
+        "clients": 0
+      },
+      "firstseen": "2015-11-19T14:17:01",
+      "nodeinfo": {
+        "node_id": "c4e984913b59",
+        "system": {
+          "site_code": "foerdefunk"
+        },
+        "owner": {
+          "contact": "it@flens.de"
+        },
+        "hardware": {
+          "model": "TP-Link TL-WDR4300 v1",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.7787413,
+          "longitude": 9.4354631
+        },
+        "hostname": "Flensburger-Brauerei-02",
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": ["c6:ed:84:91:3b:59"],
+                "wireless": ["c6:ec:85:91:3b:59", "c6:ec:86:91:3b:59"]
+              }
+            }
+          },
+          "mesh_interfaces": ["c6:ec:85:91:3b:59", "c6:ec:86:91:3b:59", "c6:ed:84:91:3b:59"],
+          "addresses": ["fe80:0:0:0:c6e9:84ff:fe91:3b59"],
+          "mac": "c4:e9:84:91:3b:59"
+        },
+        "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "stable"
+          },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
+          "batman-adv": {
+            "version": "2015.0",
+            "compat": 15
+          },
+          "fastd": {
+            "version": "v17",
+            "enabled": true
+          }
+        }
+      },
+      "flags": {
+        "gateway": false,
+        "online": false
+      },
+      "lastseen": "2015-11-19T14:27:01"
+    },
+    "e8de27304200": {
+      "statistics": {
+        "gateway": "schleuse02",
+        "rootfs_usage": 0.38888888888889,
+        "clients": 0,
+        "uptime": 1073107.14,
+        "memory_usage": 0.7143451143451143,
+        "loadavg": 0.14
+      },
+      "firstseen": "2015-10-24T06:54:01",
+      "nodeinfo": {
+        "hostname": "boje-e8de27304200",
+        "system": {
+          "site_code": "foerdefunk"
+        },
+        "hardware": {
+          "model": "TP-Link TL-WR841N/ND v9",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.787131,
+          "longitude": 9.421816
+        },
+        "node_id": "e8de27304200",
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": ["ea:e2:27:30:42:00"],
+                "wireless": ["ea:e1:28:30:42:00"]
+              }
+            }
+          },
+          "mesh_interfaces": ["ea:e2:27:30:42:00", "ea:e1:28:30:42:00"],
+          "addresses": ["fdff:49:461:0:eade:27ff:fe30:4200", "fe80:0:0:0:eade:27ff:fe30:4200", "2001:bf7:6:0:eade:27ff:fe30:4200"],
+          "mac": "e8:de:27:30:42:00"
+        },
+        "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "stable"
+          },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
+          "batman-adv": {
+            "version": "2015.0",
+            "compat": 15
+          },
+          "fastd": {
+            "version": "v17",
+            "enabled": true
+          }
+        }
+      },
+      "flags": {
+        "gateway": false,
+        "online": true
+      },
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "f81a6751719a": {
+      "statistics": {
+        "gateway": "schleuse02",
+        "rootfs_usage": 0.68065068493151,
+        "clients": 0,
+        "uptime": 1856944.3,
+        "memory_usage": 0.8553014553014553,
+        "loadavg": 0.04
+      },
+      "firstseen": "2015-10-07T05:34:01",
+      "nodeinfo": {
+        "node_id": "f81a6751719a",
+        "system": {
+          "site_code": "foerdefunk"
+        },
+        "owner": {
+          "contact": "facebook.com/eike.we"
+        },
+        "hardware": {
+          "model": "TP-Link TL-WR1043N/ND v1",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.786949,
+          "longitude": 9.441153
+        },
+        "hostname": "fffl-DiePARTEI-Margarethenhof",
+        "network": {
           "mesh": {
             "bat0": {
               "interfaces": {
@@ -905,284 +1932,286 @@
               }
             }
           },
-          "mac": "f8:1a:67:51:71:9a",
-          "mesh_interfaces": ["fa:1e:67:51:71:9a", "fa:1d:68:51:71:9a"]
-        },
-        "node_id": "f81a6751719a",
-        "location": {
-          "latitude": 54.786949,
-          "longitude": 9.441153
-        },
-        "hostname": "das_ike-Margarethenhof",
-        "hardware": {
-          "nproc": 1,
-          "model": "TP-Link TL-WR1043N/ND v1"
+          "mesh_interfaces": ["fa:1e:67:51:71:9a", "fa:1d:68:51:71:9a"],
+          "addresses": ["fe80:0:0:0:fa1a:67ff:fe51:719a", "2001:bf7:6:0:fa1a:67ff:fe51:719a", "fdff:49:461:0:fa1a:67ff:fe51:719a"],
+          "mac": "f8:1a:67:51:71:9a"
         },
         "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "beta"
+          },
           "firmware": {
-            "release": "beta-2015.1.2-201508242129",
-            "base": "gluon-v2015.1.2"
+            "base": "gluon-v2015.1.2",
+            "release": "beta-2015.1.2-201508242129"
           },
           "batman-adv": {
             "version": "2015.0",
             "compat": 15
           },
-          "autoupdater": {
-            "enabled": true,
-            "branch": "beta"
-          },
           "fastd": {
-            "enabled": true,
-            "version": "v17"
+            "version": "v17",
+            "enabled": true
           }
+        }
+      },
+      "flags": {
+        "gateway": false,
+        "online": true
+      },
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "e8de27304276": {
+      "statistics": {
+        "gateway": "schleuse02",
+        "rootfs_usage": 0.40277777777778,
+        "clients": 0,
+        "uptime": 308354.28,
+        "memory_usage": 0.721968121968122,
+        "loadavg": 0
+      },
+      "firstseen": "2015-11-15T15:46:01",
+      "nodeinfo": {
+        "node_id": "e8de27304276",
+        "system": {
+          "site_code": "foerdefunk"
         },
         "owner": {
-          "contact": "facebook.com/eike.we"
-        }
-      },
-      "firstseen": "2015-07-04T19:58:01",
-      "statistics": {
-        "gateway": "schleuse01",
-        "clients": 0,
-        "loadavg": 0.02,
-        "memory_usage": 0.8959112959112959,
-        "uptime": 561718.53,
-        "rootfs_usage": 0.063356164383562
-      },
-      "flags": {
-        "gateway": false,
-        "online": true
-      }
-    },
-    "30b5c238399b": {
-      "lastseen": "2015-09-01T00:21:02",
-      "nodeinfo": {
-        "system": {
-          "site_code": "foerdefunk"
+          "contact": "@spralexx"
         },
-        "network": {
-          "addresses": ["2001:bf7:6:0:32b5:c2ff:fe38:399b", "fe80:0:0:0:32b5:c2ff:fe38:399b", "fdff:49:461:0:32b5:c2ff:fe38:399b"],
-          "mac": "30:b5:c2:38:39:9b",
-          "mesh_interfaces": ["32:b9:c2:38:39:9b", "32:b8:c4:38:39:9b"]
-        },
-        "node_id": "30b5c238399b",
-        "location": {
-          "latitude": 54.794578,
-          "longitude": 9.426565
-        },
-        "hostname": "fpfle",
         "hardware": {
-          "nproc": 1,
-          "model": "TP-Link TL-WDR4300 v1"
+          "model": "TP-Link TL-WR841N/ND v9",
+          "nproc": 1
         },
-        "software": {
-          "firmware": {
-            "release": "stable-2015.1.0-0",
-            "base": "gluon-v2014.4-690-g631403c"
-          },
-          "autoupdater": {
-            "enabled": true,
-            "branch": "stable"
-          },
-          "batman-adv": {
-            "version": "2014.4.0",
-            "compat": 15
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v17"
-          }
-        }
-      },
-      "firstseen": "2015-07-27T20:16:01",
-      "statistics": {
-        "gateway": "schleuse01",
-        "clients": 1,
-        "loadavg": 0.06,
-        "memory_usage": 0.24657274022479025,
-        "uptime": 629524.82,
-        "rootfs_usage": 0.063356164383562
-      },
-      "flags": {
-        "gateway": false,
-        "online": true
-      }
-    },
-    "e894f6d466fe": {
-      "lastseen": "2015-09-01T00:21:02",
-      "nodeinfo": {
-        "system": {
-          "site_code": "foerdefunk"
+        "location": {
+          "latitude": 54.681931,
+          "longitude": 9.215525
         },
+        "hostname": "spralexx-841",
         "network": {
-          "addresses": ["fdff:49:461:0:ea94:f6ff:fed4:66fe", "fe80:0:0:0:ea94:f6ff:fed4:66fe", "2001:bf7:6:0:ea94:f6ff:fed4:66fe"],
           "mesh": {
             "bat0": {
               "interfaces": {
-                "tunnel": ["ea:98:f6:d4:66:fe"],
-                "wireless": ["ea:97:f7:d4:66:fe", "ea:97:f8:d4:66:fe"]
+                "tunnel": ["ea:e2:27:30:42:76"]
               }
             }
           },
-          "mac": "e8:94:f6:d4:66:fe",
-          "mesh_interfaces": ["ea:98:f6:d4:66:fe", "ea:97:f7:d4:66:fe", "ea:97:f8:d4:66:fe"]
-        },
-        "node_id": "e894f6d466fe",
-        "location": {
-          "latitude": 54.790529,
-          "longitude": 9.42942
-        },
-        "hostname": "chaostreff-schaufenster",
-        "hardware": {
-          "nproc": 1,
-          "model": "TP-Link TL-WDR4300 v1"
+          "mesh_interfaces": ["ea:e2:27:30:42:76"],
+          "addresses": ["fdff:49:461:0:eade:27ff:fe30:4276", "fe80:0:0:0:eade:27ff:fe30:4276", "2001:bf7:6:0:eade:27ff:fe30:4276"],
+          "mac": "e8:de:27:30:42:76"
         },
         "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "stable"
+          },
           "firmware": {
-            "release": "beta-2015.1.2-201508242129",
-            "base": "gluon-v2015.1.2"
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015.1.0-0"
           },
           "batman-adv": {
             "version": "2015.0",
             "compat": 15
           },
-          "autoupdater": {
-            "enabled": true,
-            "branch": "beta"
-          },
           "fastd": {
-            "enabled": true,
-            "version": "v17"
+            "version": "v17",
+            "enabled": true
           }
         }
       },
-      "firstseen": "2015-08-24T09:41:01",
+      "flags": {
+        "gateway": false,
+        "online": true
+      },
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "e894f6cd6624": {
       "statistics": {
         "gateway": "schleuse01",
+        "rootfs_usage": 0.063356164383562,
         "clients": 2,
-        "loadavg": 0.17,
-        "memory_usage": 0.24217092555650555,
-        "uptime": 481548.53,
-        "rootfs_usage": 0.064212328767123
+        "uptime": 2132963.87,
+        "memory_usage": 0.2633862132294734,
+        "loadavg": 0.27
       },
-      "flags": {
-        "gateway": false,
-        "online": true
-      }
-    },
-    "e8de273040e0": {
-      "lastseen": "2015-09-01T00:21:02",
+      "firstseen": "2015-05-13T12:06:01",
       "nodeinfo": {
+        "node_id": "e894f6cd6624",
         "system": {
           "site_code": "foerdefunk"
-        },
-        "network": {
-          "addresses": ["fdff:49:461:0:eade:27ff:fe30:40e0", "fe80:0:0:0:eade:27ff:fe30:40e0", "2001:bf7:6:0:eade:27ff:fe30:40e0"],
-          "mac": "e8:de:27:30:40:e0",
-          "mesh_interfaces": ["ea:e2:27:30:40:e0", "ea:e1:28:30:40:e0"]
-        },
-        "node_id": "e8de273040e0",
-        "location": {
-          "latitude": 54.79257,
-          "longitude": 9.429011
-        },
-        "hostname": "fpfle_03",
-        "hardware": {
-          "nproc": 1,
-          "model": "TP-Link TL-WR841N/ND v9"
-        },
-        "software": {
-          "firmware": {
-            "release": "stable-2015.1.0-0",
-            "base": "gluon-v2014.4-690-g631403c"
-          },
-          "autoupdater": {
-            "enabled": true,
-            "branch": "stable"
-          },
-          "batman-adv": {
-            "version": "2014.4.0",
-            "compat": 15
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v17"
-          }
         },
         "owner": {
-          "contact": "mail@flemming-petersen.de"
-        }
-      },
-      "firstseen": "2015-08-02T14:55:01",
-      "statistics": {
-        "gateway": "schleuse02",
-        "clients": 0,
-        "loadavg": 0.02,
-        "memory_usage": 0.8411137276631112,
-        "uptime": 1963188.11,
-        "rootfs_usage": 0.40277777777778
-      },
-      "flags": {
-        "gateway": false,
-        "online": true
-      }
-    },
-    "30b5c23839dd": {
-      "lastseen": "2015-09-01T00:21:02",
-      "nodeinfo": {
-        "system": {
-          "site_code": "foerdefunk"
+          "contact": "jezewski@gmx.de"
         },
-        "network": {
-          "addresses": ["2001:bf7:6:0:32b5:c2ff:fe38:39dd", "fe80:0:0:0:32b5:c2ff:fe38:39dd", "fdff:49:461:0:32b5:c2ff:fe38:39dd"],
-          "mac": "30:b5:c2:38:39:dd",
-          "mesh_interfaces": ["32:b9:c2:38:39:dd", "32:b8:c4:38:39:dd"]
-        },
-        "node_id": "30b5c23839dd",
-        "location": {
-          "latitude": 54.79271,
-          "longitude": 9.43118
-        },
-        "hostname": "Kolabor",
         "hardware": {
-          "nproc": 1,
-          "model": "TP-Link TL-WDR4300 v1"
+          "model": "TP-Link TL-WDR4300 v1",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.79381,
+          "longitude": 9.4314
+        },
+        "hostname": "Die-Linke",
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": ["ea:98:f6:cd:66:24"],
+                "wireless": ["ea:97:f7:cd:66:24", "ea:97:f8:cd:66:24"]
+              }
+            }
+          },
+          "mesh_interfaces": ["ea:98:f6:cd:66:24", "ea:97:f7:cd:66:24", "ea:97:f8:cd:66:24"],
+          "addresses": ["fdff:49:461:0:ea94:f6ff:fecd:6624", "fe80:0:0:0:ea94:f6ff:fecd:6624", "2001:bf7:6:0:ea94:f6ff:fecd:6624"],
+          "mac": "e8:94:f6:cd:66:24"
         },
         "software": {
-          "firmware": {
-            "release": "stable-2015.1.0-0",
-            "base": "gluon-v2014.4-690-g631403c"
-          },
           "autoupdater": {
             "enabled": true,
             "branch": "stable"
           },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
           "batman-adv": {
-            "version": "2014.4.0",
+            "version": "2015.0",
             "compat": 15
           },
           "fastd": {
-            "enabled": true,
-            "version": "v17"
+            "version": "v17",
+            "enabled": true
           }
+        }
+      },
+      "flags": {
+        "gateway": false,
+        "online": true
+      },
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "e8de273040e0": {
+      "statistics": {
+        "gateway": "schleuse02",
+        "rootfs_usage": 0.5,
+        "clients": 10,
+        "uptime": 727621.49,
+        "memory_usage": 0.7744975744975745,
+        "loadavg": 0.02
+      },
+      "firstseen": "2015-08-02T14:55:01",
+      "nodeinfo": {
+        "node_id": "e8de273040e0",
+        "system": {
+          "site_code": "foerdefunk"
+        },
+        "hardware": {
+          "model": "TP-Link TL-WR841N/ND v9",
+          "nproc": 1
+        },
+        "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "stable"
+          },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
+          "batman-adv": {
+            "version": "2015.0",
+            "compat": 15
+          },
+          "fastd": {
+            "version": "v17",
+            "enabled": true
+          }
+        },
+        "hostname": "fpfle_03",
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": ["ea:e2:27:30:40:e0"],
+                "wireless": ["ea:e1:28:30:40:e0"]
+              }
+            }
+          },
+          "mesh_interfaces": ["ea:e2:27:30:40:e0", "ea:e1:28:30:40:e0"],
+          "addresses": ["fdff:49:461:0:eade:27ff:fe30:40e0", "fe80:0:0:0:eade:27ff:fe30:40e0", "2001:bf7:6:0:eade:27ff:fe30:40e0"],
+          "mac": "e8:de:27:30:40:e0"
+        }
+      },
+      "flags": {
+        "gateway": false,
+        "online": true
+      },
+      "lastseen": "2015-11-20T08:11:01"
+    },
+    "e894f6d44974": {
+      "statistics": {
+        "gateway": "schleuse01",
+        "rootfs_usage": 0.077054794520548,
+        "clients": 13,
+        "uptime": 42925.6,
+        "memory_usage": 0.23624964377315472,
+        "loadavg": 0.44
+      },
+      "firstseen": "2015-09-28T08:40:01",
+      "nodeinfo": {
+        "node_id": "e894f6d44974",
+        "system": {
+          "site_code": "foerdefunk"
         },
         "owner": {
           "contact": "Info@FoerdeFunk.de"
+        },
+        "hardware": {
+          "model": "TP-Link TL-WDR4300 v1",
+          "nproc": 1
+        },
+        "location": {
+          "latitude": 54.794347,
+          "longitude": 9.429333
+        },
+        "hostname": "PPS.OG1",
+        "network": {
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": ["ea:98:f6:d4:49:74"]
+              }
+            }
+          },
+          "mesh_interfaces": ["ea:98:f6:d4:49:74"],
+          "addresses": ["2001:bf7:6:0:ea94:f6ff:fed4:4974", "fdff:49:461:0:ea94:f6ff:fed4:4974", "fe80:0:0:0:ea94:f6ff:fed4:4974"],
+          "mac": "e8:94:f6:d4:49:74"
+        },
+        "software": {
+          "autoupdater": {
+            "enabled": true,
+            "branch": "stable"
+          },
+          "firmware": {
+            "base": "gluon-v2015.1.2",
+            "release": "stable-2015-08"
+          },
+          "batman-adv": {
+            "version": "2015.0",
+            "compat": 15
+          },
+          "fastd": {
+            "version": "v17",
+            "enabled": true
+          }
         }
-      },
-      "firstseen": "2015-05-11T14:37:02",
-      "statistics": {
-        "gateway": "schleuse01",
-        "clients": 3,
-        "loadavg": 0.15,
-        "memory_usage": 0.2558492955516859,
-        "uptime": 1963189.18,
-        "rootfs_usage": 0.063356164383562
       },
       "flags": {
         "gateway": false,
         "online": true
-      }
+      },
+      "lastseen": "2015-11-20T08:11:01"
     }
-  }
+  },
+  "timestamp": "2015-11-20T08:11:01"
 }
