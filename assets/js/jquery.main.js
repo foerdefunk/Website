@@ -45,7 +45,7 @@ $(document).ready(function() {
             if (node.flags.online){
               countNodes++;
             };
-            if (node.nodeinfo.location && node.flags.online) {
+            if (node.flags.online) {
               setNodeToMap(node);
               numOfClients = numOfClients+node.statistics.clients;
             }
