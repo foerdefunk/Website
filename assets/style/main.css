@@ -70,11 +70,10 @@ p {
 /*
 =======================================
 */
-.offlineAdress{
+
+.offlineAdress {
   color: #4a4949;
-
 }
-
 html {
   font-size: 120%;
   background: #ffffff;
@@ -186,12 +185,10 @@ article section {
   background-repeat: repeat-x;
   background-color: #fff;
 }
-
 #about {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
-
 .aboutLeft {
   float: left;
   width: 45%;
@@ -216,12 +213,10 @@ article section {
   }
 }
 .map {}
-
 .faq {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
-
 .faqList {}
 .faqGrenzlinie {
   display: flex;
@@ -243,7 +238,7 @@ article section {
 }
 @media all and (max-width: 900px) {
   .faqList:before {
-  display:none;
+    display: none;
   }
 }
 .faqList:after {
@@ -364,7 +359,6 @@ footer a {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
-
 .find-us_map {
   height: 600px;
   margin-bottom: 2rem;
@@ -378,7 +372,6 @@ footer a {
   margin-top: 2rem;
   margin-bottom: 1.5rem;
 }
-
 .sectionParticipateMenu article {
   margin: 0;
 }
@@ -464,6 +457,10 @@ footer a {
   width: 45%;
   float: right;
   padding-left: 2em;
+}
+.participate_right_youtube {
+  width: 20rem;
+  height: 11rem;
 }
 .participate_download-form select, .participate_download-form input, .participate_download-form .button {
   display: block;
