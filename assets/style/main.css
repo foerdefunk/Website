@@ -199,6 +199,10 @@ article section {
   width: 15%;
   margin-right: 15%;
 }
+.aboutRight img {
+  max-height: 22.5rem;
+  width: auto;
+}
 @media all and (max-width: 900px) {
   .aboutLeft {
     float: none;
