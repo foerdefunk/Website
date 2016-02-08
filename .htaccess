@@ -1,3 +1,5 @@
+#Foerdefunk.de uses nginx and does not use .htaccess.
+#Expect this File to be not complete and probably never updated.
 <IfModule mod_expires.c>
 ExpiresActive On
 ExpiresByType image/gif "access plus 7 days"
