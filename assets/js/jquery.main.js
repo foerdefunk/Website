@@ -10,14 +10,6 @@ $(document).ready(function() {
     success: function() {
 
       var myIcon = L.icon({
-        iconUrl: 'assets/images/boje_85x85.png',
-        iconRetinaUrl: 'assets/images/boje_85x85.png',
-        iconSize: [30, 32],
-        iconAnchor: L.Point[30, 32],
-        popupAnchor: L.Point[-15, -32]
-      });
-
-      var marker = L.icon({
         iconUrl: 'assets/images/markers/marker.png',
         iconRetinaUrl: 'assets/images/markers/markerx2.png',
         iconSize: [21, 32],
@@ -38,7 +30,7 @@ $(document).ready(function() {
 
       var setNodeToMap = function(node) {
         L.marker([node.nodeinfo.location.latitude, node.nodeinfo.location.longitude], {
-          icon: marker
+          icon: myIcon
         }).addTo(map).bindPopup('<h3><a href="http://map.foerdefunk.de/#!n:' + node.nodeinfo.node_id + '" target="_blank">' + node.nodeinfo.hostname + '</a></h3>');
       };
       $.ajax({
