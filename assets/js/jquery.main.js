@@ -103,7 +103,7 @@ $(document).ready(function() {
     if (router === '-1') {
       window.alert('Bitte wähle eine Router aus. Den genauen Namen und die Version deines Routers findest du auf seiner Unterseite.');
     } else {
-      prefix = 'gluon-foerdefunk-stable-2015-08';
+      prefix = 'gluon-foerdefunk-stable-2016.1.0-0';
       window.location.href = 'http://firmware.foerdefunk.de/stable/factory/' + prefix + router;
 
 
