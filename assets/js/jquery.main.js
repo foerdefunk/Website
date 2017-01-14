@@ -4,7 +4,7 @@
 $(document).ready(function() {
 
   $.ajax({
-    url: 'assets/js/leaflet-0.7.3/leaflet.js',
+    url: 'https://unpkg.com/leaflet@1.0.2/dist/leaflet.js',
     dataType: 'script',
     cache: true,
     success: function() {
@@ -24,8 +24,8 @@ $(document).ready(function() {
         zoom: 13
       });
 
-      L.tileLayer('https://otile1-s.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg', {
-        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+      L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: 'Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
       }).addTo(map);
 
       var setNodeToMap = function(node) {
